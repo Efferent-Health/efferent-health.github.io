@@ -1,8 +1,10 @@
-# Monthly Release Notes
+<img class="logo" width="300" alt="logo" src="../../efferent_logo.png" />
 
-- **Product Name:** Efferent eVue and eFit
-- **Release Version:** 5.20
-- **Release Date:** May, 2024
+# Release Notes
+
+- Product Name: **eVue and eFit**
+- Release Version: **5.20**
+- Release Date: **May, 2024**
 
 ## Table of Contents
 

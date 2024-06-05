@@ -1,0 +1,6 @@
+{
+    "markdown-pdf.styles": [
+        "../../styles.css"
+    ],
+    "markdown-pdf.stylesRelativePathFile": true
+}
