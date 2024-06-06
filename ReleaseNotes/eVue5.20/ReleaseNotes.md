@@ -18,7 +18,7 @@
 
 ## Introduction
 
-Welcome to the May, 2024 release of Efferent eVue and eFit. In this update, we've focused on enhancing user experience _, adding new features, and fixing bugs_ to ensure the best performance for our users.
+Welcome to the May, 2024 release of Efferent eVue and eFit. In this update, we've focused on enhancing user experience to ensure the best performance for our users.
 
 ## New Features
 
