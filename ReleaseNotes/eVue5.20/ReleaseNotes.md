@@ -18,7 +18,7 @@
 
 ## Introduction
 
-Welcome to the May, 2024 release of Efferent eVue and eFit. In this update, we've focused on enhancing user experience to ensure the best performance for our users.
+Welcome to the May, 2024 release of Efferent eVue and eFit. In this update, we've focused on enhancing user experience _, adding new features, and fixing bugs_ to ensure the best performance for our users.
 
 ## New Features
 
@@ -27,14 +27,9 @@ None
 ## Improvements
 
 ### Settings reorganization
-Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization.
-
-Before:
+Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization
 
 <img width=600 src="I1.1.png">
-
-After:
-
 <img width=600 src="I1.2.png">
 
 ### Save key image button
@@ -45,22 +40,17 @@ A “Save key image” button has been added to the eFit dialog box to generate 
 ### eFit calibration measurements
 The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.
 
-Before:
-
 <img width=250 src="I3.1.png">
-
-After:
-
 <img width=250 src="I3.2.png">
 
 ### Hip table information
-Data on the femoral head implant is now available in the hip table information.  
+Data on the femoral head implant are already available in the hip information table and in the “show in print” box. The information of this feature shown in the tables is important as they are measurements that allow the user to visualize the correction values offered by the implant, in a more accurate way. 
 
 <img width=400 src="I4.png">
 <img width=350 src="I4.2.png">
 
 ### Change of laterality
-We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.
+This enhancement allows instantaneous change of the laterality of the hip implant by performing a single AI run. In the previous version to change this you had to cancel the operation, reopen the eFit dialog and select the desired laterality before running the AI. Now this can be done anytime, using the left and right buttons in the Laterality section.
 
 <img height=150 src="I5.1.png">
 <img height=150 src="I5.2.png">
@@ -84,9 +74,9 @@ None
 
 ## 7. Upcoming Features
 
-### Upcoming Feature 1: [Feature Name]
-- **Description**: Briefly describe the upcoming feature.
-- **Expected Release**: Mention the expected release timeframe.
+### Pelvic Tool UI
+- **Description**: Pelvic Tool is an eFit tool to determine the inclination of the hip (anterior pelvic plane and sacrum) based on anatomical points entered manually or based on detection with an AI algorithm.
+- **Expected Release**: June 21
 
 ---
 
