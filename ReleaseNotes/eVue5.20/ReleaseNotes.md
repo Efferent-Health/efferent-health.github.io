@@ -27,24 +27,27 @@ None
 ## Improvements
 
 ### Settings reorganization
-Improvements in the display of the settings view tabs. In the imaging study settings view, the tabs are displayed sorted by type of settings.
+Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization
 
-<img width=600 src="I1.png">
+<img width=600 src="I1.1.png">
+<img width=600 src="I1.2.png">
 
 ### Save key image button
-A “Save key image” button has been added to the eFit dialog box to generate key images directly. Allows to save designs in the process to continue modifying the current one.
+A “Save key image” button has been added to the eFit dialog box to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.
 
-<img width=400 src="I2.png">
+<img width=300 src="I2.png">
 
 ### eFit calibration measurements
-The list of eFit automatic calibration measurements is now displayed by clicking Auto. In previous version, when selecting the Auto option, it was assumed to be 25 mm.
+The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.
 
-<img width=250 src="I3.png">
+<img width=250 src="I3.1.png">
+<img width=250 src="I3.2.png">
 
 ### Hip table information
 Data on the femoral head implant is now available in the hip table information.  
 
 <img width=400 src="I4.png">
+<img width=350 src="I4.2.png">
 
 ### Change of laterality
 Enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI.
@@ -52,15 +55,14 @@ Enabled changing the laterality of the hip implant automatically with the switch
 <img height=150 src="I5.1.png">
 <img height=150 src="I5.2.png">
 
-### Clearing calibrations --> new warning message
-Improvement when clearing the calibration, so that eFit annotations remain. This facilitates recalibration without discarding the design.
+### New warning message
+This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.
 
-<img height=150 src="I6.1.png">
-<img height=150 src="I6.2.png">
+<img height=150 src="I6.png">
 
 ## Bug Fixes
 
-- **Issue**: _Briefly describe the issue and optionally the solution._
+- **Knee favorite implants issue**: _Knee favorite implants were not displayed in the list of favorite implants in the Ortho settings tab._
 
 ## Deprecations
 
