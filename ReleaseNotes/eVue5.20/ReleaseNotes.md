@@ -27,9 +27,14 @@ None
 ## Improvements
 
 ### Settings reorganization
-Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization
+Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization.
+
+Before:
 
 <img width=600 src="I1.1.png">
+
+After:
+
 <img width=600 src="I1.2.png">
 
 ### Save key image button
@@ -40,7 +45,12 @@ A “Save key image” button has been added to the eFit dialog box to generate 
 ### eFit calibration measurements
 The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.
 
+Before:
+
 <img width=250 src="I3.1.png">
+
+After:
+
 <img width=250 src="I3.2.png">
 
 ### Hip table information
@@ -50,7 +60,7 @@ Data on the femoral head implant is now available in the hip table information.
 <img width=350 src="I4.2.png">
 
 ### Change of laterality
-Enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI.
+We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.
 
 <img height=150 src="I5.1.png">
 <img height=150 src="I5.2.png">

@@ -368,7 +368,7 @@ code {
 <img class="logo" width="300" alt="logo" src="../../efferent_logo.png" />
 <h1 id="release-notes">Release Notes</h1>
 <ul>
-<li>Product Name: <strong>Efferent eVue and eFit</strong></li>
+<li>Product Name: <strong>eVue and eFit</strong></li>
 <li>Release Version: <strong>5.20</strong></li>
 <li>Release Date: <strong>May, 2024</strong></li>
 </ul>
@@ -388,28 +388,34 @@ code {
 <p>None</p>
 <h2 id="improvements">Improvements</h2>
 <h3 id="settings-reorganization">Settings reorganization</h3>
-<p>Improvements in the display of the settings view tabs. In the imaging study settings view, the tabs are displayed sorted by type of settings.</p>
-<img width=600 src="I1.png">
+<p>Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization.</p>
+<p>Before:</p>
+<img width=600 src="I1.1.png">
+<p>After:</p>
+<img width=600 src="I1.2.png">
 <h3 id="save-key-image-button">Save key image button</h3>
-<p>A “Save key image” button has been added to the eFit dialog box to generate key images directly. Allows to save designs in the process to continue modifying the current one.</p>
-<img width=400 src="I2.png">
+<p>A “Save key image” button has been added to the eFit dialog box to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.</p>
+<img width=300 src="I2.png">
 <h3 id="efit-calibration-measurements">eFit calibration measurements</h3>
-<p>The list of eFit automatic calibration measurements is now displayed by clicking Auto. In previous version, when selecting the Auto option, it was assumed to be 25 mm.</p>
-<img width=250 src="I3.png">
+<p>The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.</p>
+<p>Before:</p>
+<img width=250 src="I3.1.png">
+<p>After:</p>
+<img width=250 src="I3.2.png">
 <h3 id="hip-table-information">Hip table information</h3>
 <p>Data on the femoral head implant is now available in the hip table information.</p>
 <img width=400 src="I4.png">
+<img width=350 src="I4.2.png">
 <h3 id="change-of-laterality">Change of laterality</h3>
-<p>Enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI.</p>
+<p>We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.</p>
 <img height=150 src="I5.1.png">
 <img height=150 src="I5.2.png">
-<h3 id="clearing-calibrations----new-warning-message">Clearing calibrations --&gt; new warning message</h3>
-<p>Improvement when clearing the calibration, so that eFit annotations remain. This facilitates recalibration without discarding the design.</p>
-<img height=150 src="I6.1.png">
-<img height=150 src="I6.2.png">
+<h3 id="new-warning-message">New warning message</h3>
+<p>This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.</p>
+<img height=150 src="I6.png">
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li><strong>Issue</strong>: <em>Briefly describe the issue and optionally the solution.</em></li>
+<li><strong>Knee favorite implants issue</strong>: <em>Knee favorite implants were not displayed in the list of favorite implants in the Ortho settings tab.</em></li>
 </ul>
 <h2 id="deprecations">Deprecations</h2>
 <p>None</p>
