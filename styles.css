@@ -2,6 +2,7 @@ body
 {
     max-width: 1000px;
     margin:    0 auto;
+    font-family: Open Sans, Helvetica, sans-serif;
 }
 
 .logo
