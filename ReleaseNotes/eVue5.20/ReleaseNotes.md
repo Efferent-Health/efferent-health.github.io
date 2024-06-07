@@ -4,9 +4,11 @@
 
 # Release Notes
 
-- Product Name: **eVue and eFit**
-- Release Version: **5.20**
-- Release Date: **May, 2024**
+```
+Product Name:   eVue and eFit
+Version Number: 5.20
+Release Date:   May, 2024
+```
 
 ## Table of Contents
 
@@ -40,27 +42,31 @@ _After:_
 <img width=600 src="I1.2.png">
 
 ### Save key image button
-A “Save key image” button has been added to the eFit dialog box to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.
+A "Save key image" button has been added to the eFit dialog boxes to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. 
 
-<img width=400 src="I2.png">
+This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.
+
+<img width=400 src="I2.jpg">
 
 ### eFit calibration measurements
-The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.
+The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. 
+
+By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.
 
 _Before:_
 
-<img width=250 src="I3.1.png">
+<img width=250 src="I3.1.jpg">
 
 _After:_
 
-<img width=250 src="I3.2.png">
+<img width=250 src="I3.2.jpg">
 
 ### Hip table information
 Data on the femoral head implant is now available in the overlaid hip table information, as well as in the dialog box.  
 
 _Dialog box:_
 
-<img width=400 src="I4.png">
+<img width=400 src="I4.1.png">
 
 _Hip table:_
 
@@ -69,16 +75,18 @@ _Hip table:_
 ### Change of laterality
 We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.
 
-_Left:_
-
-<img height=250 src="I5.1.png">
-
 _Right:_
 
-<img height=250 src="I5.2.png">
+<img height=250 src="I5.1.jpg">
+
+_Left:_
+
+<img height=250 src="I5.2.jpg">
 
 ### New warning message
-This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.
+This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. 
+
+If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.
 
 <img height=300 src="I6.png">
 
@@ -90,15 +98,17 @@ This new pop-up message has been added to warn the user not to delete the calibr
 
 None
 
-## 6. Known Issues
+## Known Issues
 
 None
 
-## 7. Upcoming Features
+## Upcoming Features
 
 ### Pelvic tool
-- Description: Briefly describe the upcoming feature.
+- Description: The Pelvic Tool will be an eFit tool used to determine the inclination of the hip (anterior pelvic plane and sacrum) based on anatomical points entered manually or based on detection with an AI algorithm.
 - Expected Release: June, 2024.
+
+<img height=300 src="I7.jpg">
 
 ---
 

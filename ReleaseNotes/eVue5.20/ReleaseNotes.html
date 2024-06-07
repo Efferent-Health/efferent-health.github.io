@@ -2,6 +2,10 @@
     <head>
     <head>
         <style>
+            .markdown-body img {
+              padding-bottom: 10px;
+            }
+            
             body .markdown-body {
                 box-sizing: border-box;
                 min-width: 200px;
@@ -1221,11 +1225,10 @@
 <br/>
 
 <h1>Release Notes</h1>
-<ul>
-<li>Product Name: <strong>eVue and eFit</strong></li>
-<li>Release Version: <strong>5.20</strong></li>
-<li>Release Date: <strong>May, 2024</strong></li>
-</ul>
+<pre><code>Product Name:   eVue and eFit
+Version Number: 5.20
+Release Date:   May, 2024
+</code></pre>
 <h2>Table of Contents</h2>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
@@ -1250,35 +1253,38 @@
 <img width=600 src="I1.2.png">
 
 <h3>Save key image button</h3>
-<p>A “Save key image” button has been added to the eFit dialog box to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.</p>
-<img width=400 src="I2.png">
+<p>A &quot;Save key image&quot; button has been added to the eFit dialog boxes to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. </p>
+<p>This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.</p>
+<img width=400 src="I2.jpg">
 
 <h3>eFit calibration measurements</h3>
-<p>The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.</p>
+<p>The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. </p>
+<p>By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.</p>
 <p><em>Before:</em></p>
-<img width=250 src="I3.1.png">
+<img width=250 src="I3.1.jpg">
 
 <p><em>After:</em></p>
-<img width=250 src="I3.2.png">
+<img width=250 src="I3.2.jpg">
 
 <h3>Hip table information</h3>
 <p>Data on the femoral head implant is now available in the overlaid hip table information, as well as in the dialog box.  </p>
 <p><em>Dialog box:</em></p>
-<img width=400 src="I4.png">
+<img width=400 src="I4.1.png">
 
 <p><em>Hip table:</em></p>
 <img width=300 src="I4.2.png">
 
 <h3>Change of laterality</h3>
 <p>We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.</p>
-<p><em>Left:</em></p>
-<img height=250 src="I5.1.png">
-
 <p><em>Right:</em></p>
-<img height=250 src="I5.2.png">
+<img height=250 src="I5.1.jpg">
+
+<p><em>Left:</em></p>
+<img height=250 src="I5.2.jpg">
 
 <h3>New warning message</h3>
-<p>This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.</p>
+<p>This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. </p>
+<p>If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.</p>
 <img height=300 src="I6.png">
 
 <h2>Bug Fixes</h2>
@@ -1287,14 +1293,16 @@
 </ul>
 <h2>Deprecations</h2>
 <p>None</p>
-<h2>6. Known Issues</h2>
+<h2>Known Issues</h2>
 <p>None</p>
-<h2>7. Upcoming Features</h2>
+<h2>Upcoming Features</h2>
 <h3>Pelvic tool</h3>
 <ul>
-<li>Description: Briefly describe the upcoming feature.</li>
+<li>Description: The Pelvic Tool will be an eFit tool used to determine the inclination of the hip (anterior pelvic plane and sacrum) based on anatomical points entered manually or based on detection with an AI algorithm.</li>
 <li>Expected Release: June, 2024.</li>
 </ul>
+<img height=300 src="I7.jpg">
+
 <hr>
 <p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
 
