@@ -1,6 +1,5 @@
 {
-    "markdown-pdf.styles": [
-        "../../styles.css"
+    "efferent.builder.components": [
     ],
-    "markdown-pdf.stylesRelativePathFile": true
+    "efferent.builder.buildTask": "efferentBuilder",
 }
