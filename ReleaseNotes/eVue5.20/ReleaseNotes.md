@@ -19,6 +19,7 @@ Release Date:   May, 2024
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
+8. [Patch Release 5.20.1](#patch-release-5-20-1)
 
 ## Introduction
 
@@ -109,6 +110,16 @@ None
 - Expected Release: June, 2024.
 
 <img height=300 src="I7.jpg">
+
+## Patch Release 5.20.1
+A patch was released on May 31, 2024, with the following changes.
+
+### Improvements
+- **Upload, keep original**: In the upload option, the edition of demographics allowed three options: empty, select from one of the studies, or replace with custom text. However, it was not possible to keep the original values when the demographics differ among multiple studies. We added a "keep original option", as shown.
+<img height=300 src="I8.png">
+
+### Bug Fixes
+- **Cut lines**: In a CT or MRI study, the cut lines didn't synchronize correctly in viewports with a series containing a multiframe image (as opposite to multiple images).
 
 ---
 
