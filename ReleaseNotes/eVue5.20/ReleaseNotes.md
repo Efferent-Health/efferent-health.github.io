@@ -63,7 +63,9 @@ _After:_
 <img width=250 src="I3.2.jpg">
 
 ### Hip table information
-Data on the femoral head implant is now available in the overlaid hip table information, as well as in the dialog box.  
+Data on the femoral head implant are already available in the hip information table and in the “show in print” box.
+ 
+The information of this feature shown in the tables is important as they are measurements that allow the user to visualize the correction values offered by the implant, in a more accurate way. 
 
 _Dialog box:_
 
@@ -74,7 +76,9 @@ _Hip table:_
 <img width=300 src="I4.2.png">
 
 ### Change of laterality
-We enabled changing the laterality of the hip implant automatically with the switch option, performing a single run of the AI algorithm.
+This enhancement allows instantaneous change of the laterality of the hip implant without performing another AI run. 
+
+In the previous version to change this you had to cancel the operation, reopen the eFit dialog and select the desired laterality before running the AI. Now this can be done anytime, using the left and right buttons in the Laterality section.
 
 _Right:_
 
