@@ -28,7 +28,7 @@ Welcome to the June, 2024 release of Efferent eVue and eFit. In this update, we'
 ## New Features
 
 ### Pelvic tool
-The Pelvic tool is an eFit tool capable of calculating the inclination of the hip from the lateral view. To get the inclination angle, the landmarks to calculate the pelvic tilt and the sacral slope must be introduced, they can either be manually added from scratch or with the support an attached AI algorithm.
+The Pelvic tool is an eFit tool capable of calculating the inclination of the hip from the lateral view. To get the inclination angle, the user has to set the landmarks of the Anterior Pelvic Plane and the Pelvic Tilt as seen in the images, they can be set manually or with the help an integrated AI algorithm.
 
 
 _Manual Process drawing points_
@@ -92,7 +92,7 @@ _After closing and reopening the study with unsaved changes:_
 
 ## Bug Fixes
 
-- **Thumbnails scroll in top and bottom position**: 
+- **Thumbnails scroll bar in top and bottom position**: The scrollbar for thumbnails was not displayed when thumbnails were placed horizontally above or below the viewport.
 
 
 ## Deprecations
@@ -107,15 +107,6 @@ None
 
 
 
-## Patch Release 5.20.1
-A patch was released on May 31, 2024, with the following changes.
-
-### Improvements
-- **Upload, keep original**: In the upload option, the edition of demographics allowed three options: empty, select from one of the studies, or replace with custom text. However, it was not possible to keep the original values when the demographics differ among multiple studies. We added a "keep original option", as shown.
-<img height=300 src="I8.png">
-
-### Bug Fixes
-- **Cut lines**: In a CT or MRI study, the cut lines didn't synchronize correctly in viewports with a series containing a multiframe image (as opposite to multiple images).
 
 ---
 
