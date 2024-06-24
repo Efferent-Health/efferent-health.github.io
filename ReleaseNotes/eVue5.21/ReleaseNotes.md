@@ -47,8 +47,9 @@ This feature is still in trial phase and may not show all kind of annotations.
 ## Improvements
 
 ### Column resizing
+ It is now possible to edit the width of the columns in the general work list according to the user's preferences, improving the experience of reading the complete information in the columns.
 
-(TO DO)
+<img width=400 src="GIF.gif">
 
 ### Annotations on multiframe images
 Annotations on multi-frame images were not enabled independently, so they were applied to all frames of an image. Now annotations can be made and displayed on each frame as expected.

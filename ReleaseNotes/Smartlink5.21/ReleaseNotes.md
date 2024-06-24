@@ -86,7 +86,15 @@ _FTP Plugin Settings view_
 
 ### Search button in Realtime log
 
-(TO DO)
+This enhancement allows real-time log filtering, making it possible to search and display logs that meet specific search criteria. For example, view those log lines, associated with a specific PID, or containing the string MSH.
+
+_Click on the Search checkbox to start_
+
+<img weight= 300 src="I5.1.png">
+
+_Searched value entered_
+
+<img weight= 300 src="I5.2.png">
 
 ## Bug Fixes
 
