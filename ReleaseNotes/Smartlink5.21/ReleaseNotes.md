@@ -6,8 +6,8 @@
 
 ```
 Product Name:   Smartlink 5
-Version Number: 5.20
-Release Date:   May, 2024
+Version Number: 5.21
+Release Date:   June, 2024
 ```
 
 ## Table of Contents
