@@ -19,7 +19,6 @@ Release Date:   June, 2024
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
-8. [Patch Release 5.20.1](#patch-release-5-20-1)
 
 ## Introduction
 
@@ -30,7 +29,6 @@ Welcome to the June, 2024 release of Efferent eVue and eFit. In this update, we'
 ### Pelvic tool
 The Pelvic tool is an eFit tool capable of calculating the inclination of the hip from the lateral view. To get the inclination angle, the user has to set the landmarks of the Anterior Pelvic Plane and the Pelvic Tilt as seen in the images, they can be set manually or with the help an integrated AI algorithm.
 
-
 _Manual Process drawing points_
 
 <img height=300 src="I0.1.png">
@@ -39,7 +37,7 @@ _Using the AI Algorithm_
 
 <img height=300 src="I0.2.png">
 
-### Support for DICOM annotations (trial)
+### Support for DICOM graphic annotations (trial)
 This enhancement supports the uploading of DICOM files (modality=PR) containing previous annotations. These images can now be displayed in eVue with the annotations from the DICOM.
 
 This feature is still in trial phase and may not show all kind of annotations.
@@ -95,13 +93,15 @@ _After closing and reopening the study with unsaved changes:_
 
 - **Thumbnails scroll bar in top and bottom position**: The scrollbar for thumbnails was not displayed when thumbnails were placed horizontally above or below the viewport.
 
+- **Cine for multiframe in High Resolution mode**: Now Cine Mode is not showing empty or flickering when playing cine over high resolution images.
+
 ## Deprecations
 
 None
 
 ## Known Issues
 
-- Thumbnails for Structured Report (SR) not shown correctly in the Split Study option
+- Thumbnails for Structured Report (SR) not shown correctly in the Split Study option.
 
 ## Upcoming Features
 

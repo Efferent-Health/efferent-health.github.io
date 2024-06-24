@@ -22,14 +22,9 @@ Release Date:   May, 2024
 
 ## Introduction
 
-Welcome to the June, 2024 release of Smartlink 5. In this update, we've focused on enhancing the user experience to ensure the best performance for our users.
+Welcome to the June, 2024 release of Smartlink 5. In this update, we've focused on adding new functionalities in SmartLink Central.
 
 ## New Features
-
-None
-
-## Improvements
-
 
 ### FTP Plugin Settings View
 
@@ -87,6 +82,11 @@ _FTP Plugin Settings view_
 
 <img height=210 src="I2.2.png">
 
+## Improvements
+
+### Search button in Realtime log
+
+(TO DO)
 
 ## Bug Fixes
 
@@ -102,8 +102,8 @@ None
 
 ## Upcoming Features
 
-None
-
+- Workflow templates: Ability to update all SmartLinks in an organization after modifying a workflow template.
+- Start/stop buttons to apply to single SmartLinks or all across an organization.
 
 ---
 
