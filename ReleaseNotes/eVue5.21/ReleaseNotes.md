@@ -47,7 +47,7 @@ This feature is still in trial phase and may not show all kind of annotations.
 ## Improvements
 
 ### Column resizing
- It is now possible to edit the width of the columns in the general work list according to the user's preferences, improving the experience of reading the complete information in the columns.
+ It is now possible to edit the width of the columns in the General Worklist according to the user's preferences, improving the experience of reading the complete information in the columns.
 
 <img width=400 src="GIF.gif">
 
@@ -81,14 +81,6 @@ _After_
 ### Autosave for AI in Hip Implant tool
 
 This improvement enables automatic saving of the annotations made with the AI in the hip implant tool, avoiding the loss of changes during the process.
-
-_Adding the first annotations:_
-
-<img width=300 src="I5.1.png">
-
-_After closing and reopening the study with unsaved changes:_
-
-<img width=300 src="I5.2.png">
 
 ## Bug Fixes
 
