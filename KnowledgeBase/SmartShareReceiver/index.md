@@ -16,58 +16,56 @@ The following article describes step-by-step how to enable an invited user to se
 ## Steps
 
 ### Step 1 
-Access the email link that was sent to you from Efferent Notifier.  (check spam or junk folders if not in your Inbox).  If the email is in your Spam or Junk Folder, right click the email and move it to your Inbox. (the email will look similar to the Welcome email below).
+Access the email link that was sent to you from Efferent Notifier. If the email is not displayed, look in spam or junk mail folder and move it to the main inbox. The email will be similar to the welcome email below.
 
-(TO DO: Screenshot)
+<img width=300 src="I1.png">
  
 ### Step 2
 
-Follow the link to begin to set up your Account
-
+Follow the link to begin to set up your Account.
+ 
 ### Step 3
 
-Passwords require at least 8 characters of which 1 must be a number and 1 must be a special character. (@ $ ! % * ? & - # _ )
- 
+Enter your email address and password.
+
+If this is the first time accessing the Efferent Platform to view images, select ‘FORGOT YOUR PASSWORD?’.
+
+<img width=300 src="I2.png">
+
 ### Step 4
 
-Enter your new password and then re-enter to confirm.
-If this is your first time accessing the Efferent Platform to view images, you enter your email address and select ‘FORGOT MY PASSWORD’.
+Enter your email address and click on Send verificaton code. 
 
-(TO DO: Screenshot)
+<img width=300 src="I3.png">
 
-After you select ‘FORGOT YOUR PASSWORD’ you will receive an email with a VERIFICATION code.  Enter that code and select Verify Code.
+An e-mail with a verification code will be sent.  Paste this code in the corresponding field and select Verify code. Then click on Continue.
 
-(TO DO: Screenshot)
+<img width=300 src="I4.png">
 
-Select Verify Code and then you will be presented with the screen below and you will need to enter your New Password and Confirm Your New Password.  Then select Continue.  Remember passwords require at least 8 characters of which 1 must be a number and 1 must be a special character. (@ $ ! % * ? & - #_ ).  An example Password would be Casper01!
+<img width=300 src="I5.png">
+
+Enter a new password and confirm it in the New Password fields.  Then select Continue.  
+Remember that the password requires at least 8 characters, of which 1 must be a number and 1 must be a special character (@ $ ! ! % * ? ? & - #_ ). An example password would be Casper01!
  
-(TO DO: Screenshot)
+<img width=300 src="I7.png">
 
 ### Step 5
 
-Accept the HIPAA Warning Message
+Accept the HIPAA warning message. Proceed and create a profile. You will then be logged into eVue and should see the study.
  
-(TO DO: Screenshot)
- 
+<img width=400 src="I8.png">
+
 ### Step 6
-
-Proceed and then create your profile.
-
-(TO DO: Screenshot)
-
-You will then be logged into eVue and should see your images.
-
-(TO DO: Screenshot)
  
-Once logged in you will see your study.  To see the images, you will either double-click on the patient id line or select View Study.
+ If it is a patient account, a general worklist will be displayed. To view the images, double click on the record or select it and click the View Study button.
  
-(TO DO: Screenshot)
+<img width=400 src="I9.png">
  
-If you log out of eVue and later want to see your images, you must login again using: https://platform.efferenthealth.net
+To view the study after logging out of eVue, log back in using: 
+https://platform.efferenthealth.net
 
-You may need to enter your user credentials (email address) and you will be required to enter your password.
+Enter the user credentials (email address) and password.
 
-(TO DO: Screenshot)
 
 ---
 
