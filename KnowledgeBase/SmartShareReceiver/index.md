@@ -7,6 +7,7 @@
 ```
 Product Name:  eVue
 Article Topic: SmartShare receiver
+Last Update:   June, 2024
 ```
 
 ## Description
@@ -38,9 +39,11 @@ Enter your email address and click on Send verificaton code.
 
 <img width=300 src="I3.png">
 
-An e-mail with a verification code will be sent.  Paste this code in the corresponding field and select Verify code. Then click on Continue.
+An e-mail with a verification code will be sent.  
 
 <img width=300 src="I4.png">
+
+Paste this code in the corresponding field and select Verify code. Then click on Continue.
 
 <img width=300 src="I5.png">
 
