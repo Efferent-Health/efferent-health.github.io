@@ -19,6 +19,7 @@ Release Date:   June, 2024
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
+8. [Patch Release 5.21.1](#patch-release-5-21-1)
 
 ## Introduction
 
@@ -99,6 +100,23 @@ None
 ## Upcoming Features
 
 None
+
+
+## Patch Release 5.21.1
+A patch was released on June 28, 2024, with the following changes.
+
+### Improvements
+- **Stabilize the columns to their original size and resize them**: The new resize function of the worklist columns has been improved, showing the columns with their original width and providing the option to modify it according to the user's preferences. 
+
+- **Added modality types to each study in the Worklist**: Enabled display of all modality types containing images of a study in the Modality column of the Worklist.
+
+### Bug Fixes
+- **Cropped images in Print PDF**: The image in the generated quick print PDF was incomplete (cropped) when selecting the current image option.
+
+- **Error in columns within Related and Inspect view**: Fixed a bug in the display of the Related and Inspect view columns. This error impeded the correct execution of the functionalities.
+
+- **Uploaded studies were not displayed in the Platform**: Uploaded studies were not being displayed on the platform. Fixed the root bug so that uploaded studies are not discarded.
+
 
 ---
 
