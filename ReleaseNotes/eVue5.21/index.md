@@ -114,7 +114,7 @@ A patch was released on June 28, 2024, with the following changes.
 
 - **Error in columns within Related and Inspect view**: Fixed a bug in the display of the Related and Inspect view columns. This error impeded the correct execution of the functionalities.
 
-- **Uploaded studies were not displayed in the Platform**: Uploaded studies were not being displayed on the platform. Fixed the root bug so that uploaded studies are not excluded from the Worklist.
+- **Uploaded studies were not displayed in the Platform**: A small group of uploaded studies were not being displayed on the platform. Fixed the root bug so that all uploaded studies are not excluded from the Worklist.
 
 ---
 

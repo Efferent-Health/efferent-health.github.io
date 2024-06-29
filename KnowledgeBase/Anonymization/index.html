@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Release Notes</title>
+        <title>Knowledge Base Article</title>
         <style>
             .markdown-body img {
               padding-bottom: 10px;
@@ -1224,100 +1224,55 @@
 
 <br/>
 
-<h1 id='release-notes'>Release Notes</h1>
-<pre><code>Product Name:   eVue and eFit
-Version Number: 5.20
-Release Date:   May, 2024
+<h1 id='knowledge-base-article'>Knowledge Base Article</h1>
+<pre><code>Product Name:  eVue and SmartLink
+Article Topic: DICOM Images anonymization and de-identification
+Last Update:   June, 2024
 </code></pre>
 <h2 id='table-of-contents'>Table of Contents</h2>
 <ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#new-features">New Features</a></li>
-<li><a href="#improvements">Improvements</a></li>
-<li><a href="#bug-fixes">Bug Fixes</a></li>
-<li><a href="#deprecations">Deprecations</a></li>
-<li><a href="#known-issues">Known Issues</a></li>
-<li><a href="#upcoming-features">Upcoming Features</a></li>
-<li><a href="#patch-release-5-20-1">Patch Release 5.20.1</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#high-level-review">High Level Review</a></li>
+<li><a href="#tool-set">Tool Set</a></li>
+<li><a href="#usage-in-evue">Usage in eVue</a></li>
+<li><a href="#usage-in-smartlink">Usage in SmartLink</a></li>
 </ol>
-<h2 id='introduction'>Introduction</h2>
-<p>Welcome to the May, 2024 release of Efferent eVue and eFit. In this update, we&#39;ve focused on enhancing the user experience to ensure the best performance for our users.</p>
-<h2 id='new-features'>New Features</h2>
-<p>None</p>
-<h2 id='improvements'>Improvements</h2>
-<h3 id='settings-reorganization'>Settings reorganization</h3>
-<p>Improvements in the display of the settings view tabs. The tabs are now displayed sorted by type of settings in the imaging study settings view, providing better visual organization.</p>
-<p><em>Before:</em></p>
-<img width=600 src="I1.1.png">
-
-<p><em>After:</em></p>
-<img width=600 src="I1.2.png">
-
-<h3 id='save-key-image-button'>Save key image button</h3>
-<p>A &quot;Save key image&quot; button has been added to the eFit dialog boxes to generate key images directly. This access allows to save implant options while using the eFit tool and then continue modifying the current one. </p>
-<p>This speeds up the creation and saving of multiple options, which previously could be done by saving the current implant, closing the efit window and then creating the key image from the image tools.</p>
-<img width=400 src="I2.jpg">
-
-<h3 id='efit-calibration-measurements'>eFit calibration measurements</h3>
-<p>The list of eFit calibration measurements is now also displayed when clicking Auto. In the previous version, selecting the Auto option assumed that it should take a value of 25 mm by default. </p>
-<p>By adding the list of options, after clicking Auto the user can select the optimal measurement for the study calibration.</p>
-<p><em>Before:</em></p>
-<img width=250 src="I3.1.jpg">
-
-<p><em>After:</em></p>
-<img width=250 src="I3.2.jpg">
-
-<h3 id='hip-table-information'>Hip table information</h3>
-<p>Data on the femoral head implant are already available in the hip information table and in the “show in print” box.</p>
-<p>The information of this feature shown in the tables is important as they are measurements that allow the user to visualize the correction values offered by the implant, in a more accurate way. </p>
-<p><em>Dialog box:</em></p>
-<img width=400 src="I4.1.png">
-
-<p><em>Hip table:</em></p>
-<img width=300 src="I4.2.png">
-
-<h3 id='change-of-laterality'>Change of laterality</h3>
-<p>This enhancement allows instantaneous change of the laterality of the hip implant without performing another AI run. </p>
-<p>In the previous version to change this you had to cancel the operation, reopen the eFit dialog and select the desired laterality before running the AI. Now this can be done anytime, using the left and right buttons in the Laterality section.</p>
-<p><em>Right:</em></p>
-<img height=250 src="I5.1.jpg">
-
-<p><em>Left:</em></p>
-<img height=250 src="I5.2.jpg">
-
-<h3 id='new-warning-message'>New warning message</h3>
-<p>This new pop-up message has been added to warn the user not to delete the calibration annotation if it is desired to keep the eFit annotations made. </p>
-<p>If the user agrees to continue, it will be necessary to recalibrate the image and start adding annotations from scratch.</p>
-<img height=300 src="I6.png">
-
-<h2 id='bug-fixes'>Bug Fixes</h2>
+<h2 id='description'>Description</h2>
+<p>The following article describes the anonymization and de-identification features in Efferent eVue application and SmartLink device.</p>
+<h2 id='high-level-review'>High Level Review</h2>
+<p>Efferent Health uses several software tools for protecting the patient privacy, using with the following mthods:</p>
 <ul>
-<li><strong>Knee favorite implants issue</strong>: Knee favorite implants were not displayed in the list of favorite implants in the Ortho settings tab.</li>
+<li><strong>Anonymization</strong>, ensures that personal data cannot be traced back to the individual under any circumstances, providing the highest level of privacy protection.</li>
+<li><strong>De-identification</strong>, allows for the possibility of re-identifying individuals under controlled conditions, balancing privacy with data usability.</li>
 </ul>
-<h2 id='deprecations'>Deprecations</h2>
-<p>None</p>
-<h2 id='known-issues'>Known Issues</h2>
-<p>None</p>
-<h2 id='upcoming-features'>Upcoming Features</h2>
-<h3 id='pelvic-tool'>Pelvic tool</h3>
-<ul>
-<li>Description: The Pelvic Tool will be an eFit tool used to determine the inclination of the hip (anterior pelvic plane and sacrum) based on anatomical points entered manually or based on detection with an AI algorithm.</li>
-<li>Expected Release: June, 2024.</li>
-</ul>
-<img height=300 src="I7.jpg">
-
-<h2 id='patch-release-5-20-1'>Patch Release 5.20.1</h2>
-<p>A patch was released on May 31, 2024, with the following changes.</p>
-<h3 id='improvements'>Improvements</h3>
-<ul>
-<li><strong>Upload, keep original</strong>: In the upload option, the edition of demographics allowed three options: empty, select from one of the studies, or replace with custom text. However, it was not possible to keep the original values when the demographics differ among multiple studies. We added a &quot;keep original option&quot;, as shown.<img height=300 src="I8.png"></li>
-</ul>
-<h3 id='bug-fixes'>Bug Fixes</h3>
-<ul>
-<li><strong>Cut lines</strong>: In a CT or MRI study, the cut lines didn&#39;t synchronize correctly in viewports with a series containing a multiframe image (as opposite to multiple images).</li>
-</ul>
-<hr>
-<p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
+<p>The tools comprise several open-source libraries, including those developed in-house.</p>
+<h2 id='tool-set'>Tool Set</h2>
+<p>All the tools described here are based on Microsoft technologies and most of them published as open-source code in gitbuh.com</p>
+<h3 id='fo-dicom-anonymizer'>fo-dicom anonymizer</h3>
+<p>Efferent Health is a key contributor in the <a href="https://github.com/fo-dicom/fo-dicom">fo-dicom</a> project, then most important open-source .NET library for manipulating DICOM files.</p>
+<p>The initial proposal was posted in January 2017 (read: <a href="https://github.com/fo-dicom/fo-dicom/issues/410">https://github.com/fo-dicom/fo-dicom/issues/410</a>), and was based on the <a href="ftp://medical.nema.org/medical/dicom/2011/11_15pu.pdf">DICOM Supplement 142, 2011</a>.</p>
+<p>The standard&#39;s suplement describes a method for de-identifying DICOM tags based on <em>confidentiality profiles</em>, and proposed a Basic Profile, that is used in the fo-dicom&#39;s <em>DicomAnonymizer</em> class implementation.</p>
+<p>Apart from the Basic Profile, it is possible to define custom profiles by enlisting a set of DICOM tags and de-identification action.</p>
+<p>Efferent is working on improving this library to cover the <a href="ftp://medical.nema.org/medical/dicom/final/sup142_ft.pdf">final version</a> of the Supplement.</p>
+<h3 id='efferent-pixel-region-anonymizer'>Efferent Pixel Region Anonymizer</h3>
+<p>A private Efferent SDK allows to blank well-known regions of an image give a couple of coordinates. This simple feature is uselful for cases like secondary capture, where the text is rendered in the same position, typically atop of the screenshot.</p>
+<h3 id='microsoft-presidio-image-redactor'>Microsoft Presidio Image Redactor</h3>
+<p><em>Image Redactor</em> is a component which is part of Microsoft&#39;s <a href="https://github.com/microsoft/presidio">Presidio</a> Data Protection and De-identification SDK. </p>
+<p>The tool is a Python based module for detecting and redacting PII text entities in images, and can be wrapped as a Docker container for easy integration.</p>
+<p>Efferent Health also has a AI-based redaction library for images built in-house, but decided to give priority to Microsoft&#39;s solution.</p>
+<h3 id='microsoft-tools-for-health-data-anonymization'>Microsoft Tools for Health Data Anonymization</h3>
+<p>As part of this tool set published in <a href="https://github.com/microsoft/Tools-for-Health-Data-Anonymization">github</a>, Microsoft offers an open-source application for anonymization of DICOM files&#39; metadata, that Efferent has re-wrapped as a service inside a Docker container.</p>
+<p>Unlike Efferent/fo-dicom&#39;s library, Microsoft offers more anonymization actions beyond the standard, like encryption hashing, perturbance, and date-shifting. This library can also anonymize FHIR records.</p>
+<p>On the other hand, this library presents some limitations like the inability to anonymize nested tags, or a complex group of tags.</p>
+<h2 id='usage-in-evue'>Usage in eVue</h2>
+<p>Currently, Efferent eVue&#39;s upload option uses fo-dicom for anonymizing studies using the Basic Profile, as described in the standard.</p>
+<h2 id='usage-in-smartlink'>Usage in SmartLink</h2>
+<p>SmartLink provides all the mentioned options for anonymization, to be enacted in its Workflow Engine as Worfklow Activities. </p>
+<p>The first one (fo-dicom) is implemented as a standard Workflow Engine activity, with the possibility of supplying a modified or alternative anonymization profile.</p>
+<p>The Pixel Region Anonymizer is also embedded into a native activity in SmartLink&#39;s Workflow Engine, with the possibility of specifying several rectangular regions.</p>
+<p>The two Microsoft anonymization tools (Presidio and Health Data Anonymization) are delivered as web services inside Docker containers and interfaced with a corresponding Workflow Activity.</p>
+<p>The following diagram depics a realistic workflow using three anonymization methods for DICOM, depending on the image type. This workflow is configured and enacted by SmartLink device.</p>
+<p><img src="workflow.png" alt="Workflow diagram"></p>
 
         </article>
     </body>
