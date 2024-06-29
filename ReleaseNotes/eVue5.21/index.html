@@ -1,6 +1,6 @@
 <html>
     <head>
-    <head>
+        <title>Release Notes</title>
         <style>
             .markdown-body img {
               padding-bottom: 10px;
@@ -1224,12 +1224,12 @@
 
 <br/>
 
-<h1>Release Notes</h1>
+<h1 id='release-notes'>Release Notes</h1>
 <pre><code>Product Name:   eVue and eFit
 Version Number: 5.21
 Release Date:   June, 2024
 </code></pre>
-<h2>Table of Contents</h2>
+<h2 id='table-of-contents'>Table of Contents</h2>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#new-features">New Features</a></li>
@@ -1238,11 +1238,12 @@ Release Date:   June, 2024
 <li><a href="#deprecations">Deprecations</a></li>
 <li><a href="#known-issues">Known Issues</a></li>
 <li><a href="#upcoming-features">Upcoming Features</a></li>
+<li><a href="#patch-release-5-21-1">Patch Release 5.21.1</a></li>
 </ol>
-<h2>Introduction</h2>
+<h2 id='introduction'>Introduction</h2>
 <p>Welcome to the June, 2024 release of Efferent eVue and eFit. In this update, we&#39;ve focused on a couple of new features and enhancing the user experience to ensure the best performance for our users.</p>
-<h2>New Features</h2>
-<h3>Pelvic tool</h3>
+<h2 id='new-features'>New Features</h2>
+<h3 id='pelvic-tool'>Pelvic tool</h3>
 <p>The Pelvic tool is an eFit tool capable of calculating the inclination of the hip from the lateral view. To get the inclination angle, the user has to set the landmarks of the Anterior Pelvic Plane and the Pelvic Tilt as seen in the images, they can be set manually or with the help an integrated AI algorithm.</p>
 <p><em>Manual Process drawing points</em></p>
 <img height=300 src="I0.1.png">
@@ -1250,17 +1251,17 @@ Release Date:   June, 2024
 <p><em>Using the AI Algorithm</em></p>
 <img height=300 src="I0.2.png">
 
-<h3>Support for DICOM graphic annotations (trial)</h3>
+<h3 id='support-for-dicom-graphic-annotations-trial'>Support for DICOM graphic annotations (trial)</h3>
 <p>This enhancement supports the uploading of DICOM files (modality=PR) containing previous annotations. These images can now be displayed in eVue with the annotations from the DICOM.</p>
 <p>This feature is still in trial phase and may not show all kind of annotations.</p>
 <img width=400 src="I3.png">
 
-<h2>Improvements</h2>
-<h3>Column resizing</h3>
+<h2 id='improvements'>Improvements</h2>
+<h3 id='column-resizing'>Column resizing</h3>
 <p> It is now possible to edit the width of the columns in the General Worklist according to the user&#39;s preferences, improving the experience of reading the complete information in the columns.</p>
 <img width=400 src="GIF.gif">
 
-<h3>Annotations on multiframe images</h3>
+<h3 id='annotations-on-multiframe-images'>Annotations on multiframe images</h3>
 <p>Annotations on multi-frame images were not enabled independently, so they were applied to all frames of an image. Now annotations can be made and displayed on each frame as expected.</p>
 <p><em>Annotations in frame 2/77</em></p>
 <img width=400 src="I2.1.png">
@@ -1268,11 +1269,11 @@ Release Date:   June, 2024
 <p><em>Annotations in frame 3/77</em></p>
 <img width=400 src="I2.2.png">
 
-<h3>Soft deletion of several selected studies</h3>
+<h3 id='soft-deletion-of-several-selected-studies'>Soft deletion of several selected studies</h3>
 <p>The action of deleting more than one selected study at a time has been enabled. This applies to delete studies from the worklist, removing them to the recycle bin.</p>
 <img width=600 src="I1.png">
 
-<h3>Quick Print preview</h3>
+<h3 id='quick-print-preview'>Quick Print preview</h3>
 <p>An image preview has been implemented in the Quick Print options when selecting &quot;current image&quot;. Previously this layout was limited to show a gray square instead to represent the scale of the image on the print sheet.</p>
 <p><em>Before</em></p>
 <img width=400 src="I4.1.png">
@@ -1280,23 +1281,41 @@ Release Date:   June, 2024
 <p><em>After</em></p>
 <img width=400 src="I4.2.png">
 
-<h3>Autosave for AI in Hip Implant tool</h3>
+<h3 id='autosave-for-ai-in-hip-implant-tool'>Autosave for AI in Hip Implant tool</h3>
 <p>This improvement enables automatic saving of the annotations made with the AI in the hip implant tool, avoiding the loss of changes during the process.</p>
-<h2>Bug Fixes</h2>
+<h2 id='bug-fixes'>Bug Fixes</h2>
 <ul>
 <li><p><strong>Thumbnails scroll bar in top and bottom position</strong>: The scrollbar for thumbnails was not displayed when thumbnails were placed horizontally above or below the viewport.</p>
 </li>
 <li><p><strong>Cine for multiframe in High Resolution mode</strong>: Now Cine Mode is not showing empty or flickering when playing cine over high resolution images.</p>
 </li>
 </ul>
-<h2>Deprecations</h2>
+<h2 id='deprecations'>Deprecations</h2>
 <p>None</p>
-<h2>Known Issues</h2>
+<h2 id='known-issues'>Known Issues</h2>
 <ul>
 <li>Thumbnails for Structured Report (SR) not shown correctly in the Split Study option.</li>
 </ul>
-<h2>Upcoming Features</h2>
+<h2 id='upcoming-features'>Upcoming Features</h2>
 <p>None</p>
+<h2 id='patch-release-5-21-1'>Patch Release 5.21.1</h2>
+<p>A patch was released on June 28, 2024, with the following changes.</p>
+<h3 id='improvements'>Improvements</h3>
+<ul>
+<li><p><strong>Worklist column resizing</strong>: The new resize function of the worklist columns has been improved. It now shows the columns with their default width and allows the user to save the changes to their preferences. </p>
+</li>
+<li><p><strong>Added modality types to each study in the Worklist</strong>: Enabled display of all modality types of a study in the Modality column of the Worklist.</p>
+</li>
+</ul>
+<h3 id='bug-fixes'>Bug Fixes</h3>
+<ul>
+<li><p><strong>Cropped images in Print PDF</strong>: The image in the generated quick print PDF was incomplete (cropped) when selecting the current image option.</p>
+</li>
+<li><p><strong>Error in columns within Related and Inspect view</strong>: Fixed a bug in the display of the Related and Inspect view columns. This error impeded the correct execution of the functionalities.</p>
+</li>
+<li><p><strong>Uploaded studies were not displayed in the Platform</strong>: A small group of uploaded studies were not being displayed on the platform. Fixed the root bug so that all uploaded studies are not excluded from the Worklist.</p>
+</li>
+</ul>
 <hr>
 <p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
 
