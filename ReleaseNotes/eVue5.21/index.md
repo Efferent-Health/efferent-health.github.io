@@ -107,6 +107,8 @@ A patch was released on June 28, 2024, with the following changes.
 ### Improvements
 - **Worklist column resizing**: The new resize function of the worklist columns has been improved. It now shows the columns with their default width and allows the user to save the changes to their preferences. 
 
+- **Save column size changes**: Changes made to column widths are now saved at user level.
+
 - **Added modality types to each study in the Worklist**: Enabled display of all modality types of a study in the Modality column of the Worklist.
 
 ### Bug Fixes
