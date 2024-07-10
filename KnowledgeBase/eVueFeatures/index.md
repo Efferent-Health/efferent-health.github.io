@@ -2,7 +2,7 @@
 
 ## Worklist View
 
-Feature|Admin|User|Guest Practitioner|Patient|Anonymous|
+Feature|Admin|User|Guest<br>Practitioner|Patient|Anonymous|
 --|--|--|--|--|--|
 Filter|✓|✓|✓|||
 Search|✓|✓|✓|✓||
@@ -17,7 +17,7 @@ Reset Columns|✓|✓|✓|||
 _*_ _The role can only share with the option "to practitioner's email"._
 ## Imaging Study View
 
-Feature|Admin|User|Guest Practitioner|Patient|Anonymous|
+Feature|Admin|User|Guest<br>Practitioner|Patient|Anonymous|
 --|--|--|--|--|--|
 Transform Tools|✓|✓|✓|✓|✓|
 Quick Print|✓|✓|✓|✓|✓|
@@ -40,7 +40,7 @@ _*_ _Exclusive feature: enabled for certain organizations._
 
 ### General Setting
 
-Tab|Admin|User|Guest Practitioner|Patient|
+Tab|Admin|User|Guest<br>Practitioner|Patient|
 --|--|--|--|--|
 Platform - SmartLink Cache|✓|✓|||
 Platform - General|✓|✓|✓|✓|
@@ -52,7 +52,7 @@ _*_ _Exclusive feature: enabled for certain organizations._
 
 ### Imaging Study Settings
 
-Tab|Admin|User|Guest Practitioner|Patient|
+Tab|Admin|User|Guest<br>Practitioner|Patient|
 --|--|--|--|--|
 Imaging Study|✓|✓|||
 Overlay Text|✓|✓|||
