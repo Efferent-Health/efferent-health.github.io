@@ -1232,29 +1232,31 @@
 <p>A guest practitioner is one invited by an admin or organization practitioner to use eVue to review a specific record. Features that may alter or add information to medical records are restricted.</p>
 <h3 id='patient'>Patient</h3>
 <p>Patients are highly restricted to only view and share their own medical records, without any advanced feature intended for practitioners.</p>
+<h3 id='anonymous'>Anonymous</h3>
+<p>Anonymous users are those who have received a medical record link via QR Code or Teams chat. As they are not identified, they have the most limitations on viewing that record.</p>
 <h3 id='application-tags'>Application Tags</h3>
 <p>Application tags are modifiers that allows an admin to enable or disable certain features for specific users, in case they are available at organization level.</p>
 <h3 id='extensions'>Extensions</h3>
-<p>Extensions are intended to enable third-party applications, typically as toolbar buttons. Efferent only use this feature for the reporting toolset.</p>
+<p>Extensions are intended to enable third-party applications, typically as toolbar buttons. Efferent only uses this feature for the reporting toolset.</p>
 <h2 id='worklist-view'>Worklist View</h2>
 <table>
 <thead>
 <tr>
 <th>Feature</th>
-<th align="center">Org.<br>&numsp;&numsp;Admin&numsp;&numsp;</th>
+<th align="center">Org.<br>&numsp;Admin&numsp;</th>
 <th align="center">Org.<br>Practitioner</th>
 <th align="center">Guest<br>Practitioner</th>
 <th align="center">&numsp;Patient&numsp;</th>
-<th align="center">Anonymous</th>
+<th align="center">Anony-<br>mous</th>
 <th align="center">App&numsp;Tag?</th>
 <th align="center">Extension?</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>Filter</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1262,18 +1264,18 @@
 </tr>
 <tr>
 <td>Search</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Tags</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1282,39 +1284,39 @@
 </tr>
 <tr>
 <td>SmartShare</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓*</td>
-<td align="center">✓*</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;*</td>
+<td align="center">&#x2713;*</td>
 <td align="center"></td>
-<td align="center">✓&sect;</td>
+<td align="center">&#x2713;&sect;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Download (As zip package/as ISO file)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Upload (DICOM, MP4, Attach)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Reset Columns</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1322,27 +1324,27 @@
 </tr>
 <tr>
 <td>Sort</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>[Read] auto-tag</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Audit Trail</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1352,17 +1354,7 @@
 </tr>
 <tr>
 <td>Admin Tools (split, merge, inspect,<br>edit, delete, quarantine, anonymnize)</td>
-<td align="center">✓</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="center"></td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1378,30 +1370,30 @@
 <thead>
 <tr>
 <th>Feature</th>
-<th align="center">Org.<br>&numsp;&numsp;Admin&numsp;&numsp;</th>
+<th align="center">Org.<br>&numsp;Admin&numsp;</th>
 <th align="center">Org.<br>Practitioner</th>
 <th align="center">Guest<br>Practitioner</th>
 <th align="center">&numsp;Patient&numsp;</th>
-<th align="center">Anonymous</th>
+<th align="center">Anony-<br>mous</th>
 <th align="center">App&numsp;Tag?</th>
 <th align="center">Extension?</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>Transform Tools (zoom, pan, rotate, etc.)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Image render options (W/L, invert, sharpen)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1409,9 +1401,9 @@
 </tr>
 <tr>
 <td>Measure tools</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1419,18 +1411,18 @@
 </tr>
 <tr>
 <td>Quick Print</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Key Image</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1439,8 +1431,8 @@
 </tr>
 <tr>
 <td>Stitch &amp; resect</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1449,8 +1441,8 @@
 </tr>
 <tr>
 <td>Case Study</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1459,8 +1451,8 @@
 </tr>
 <tr>
 <td>Related study list</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1469,8 +1461,8 @@
 </tr>
 <tr>
 <td>Quick Compare</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1478,9 +1470,9 @@
 <td align="center"></td>
 </tr>
 <tr>
-<td>Ortho Tools (calibration, cobb, vertebra, eLign)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td>Ortho Tools (calibration, Cobb, vertebra, eLign)</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1489,47 +1481,37 @@
 </tr>
 <tr>
 <td>Multi-plannar reconstruction (MPR)</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>eFit - Implant Surgery planning</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center"></td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Report</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 </tr>
 <tr>
 <td>Delete Image</td>
-<td align="center">✓</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="center"></td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1544,7 +1526,7 @@
 <thead>
 <tr>
 <th>Feature</th>
-<th align="center">Org.<br>&numsp;&numsp;Admin&numsp;&numsp;</th>
+<th align="center">Org.<br>&numsp;Admin&numsp;</th>
 <th align="center">Org.<br>Practitioner</th>
 <th align="center">Guest<br>Practitioner</th>
 <th align="center">&numsp;Patient&numsp;</th>
@@ -1554,8 +1536,8 @@
 </thead>
 <tbody><tr>
 <td>Platform - SmartLink</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1563,25 +1545,25 @@
 </tr>
 <tr>
 <td>Platform - General</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td>Report Templates</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 </tr>
 <tr>
 <td>Practitioners</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1590,16 +1572,7 @@
 </tr>
 <tr>
 <td>Routings</td>
-<td align="center">✓</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="center"></td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1612,7 +1585,7 @@
 <thead>
 <tr>
 <th>Feature</th>
-<th align="center">Org.<br>&numsp;&numsp;Admin&numsp;&numsp;</th>
+<th align="center">Org.<br>&numsp;Admin&numsp;</th>
 <th align="center">Org.<br>Practitioner</th>
 <th align="center">Guest<br>Practitioner</th>
 <th align="center">&numsp;Patient&numsp;</th>
@@ -1622,8 +1595,8 @@
 </thead>
 <tbody><tr>
 <td>Imaging Study</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1631,8 +1604,8 @@
 </tr>
 <tr>
 <td>DICOM - General</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1640,8 +1613,8 @@
 </tr>
 <tr>
 <td>DICOM - Overlay Text</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>
@@ -1649,17 +1622,8 @@
 </tr>
 <tr>
 <td>Ortho Tools</td>
-<td align="center">✓</td>
-<td align="center">✓</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">&#x2713;</td>
+<td align="center">&#x2713;</td>
 <td align="center"></td>
 <td align="center"></td>
 <td align="center"></td>

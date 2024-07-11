@@ -16,28 +16,30 @@ A guest practitioner is one invited by an admin or organization practitioner to 
 ### Patient
 Patients are highly restricted to only view and share their own medical records, without any advanced feature intended for practitioners.
 
+### Anonymous
+Anonymous users are those who have received a medical record link via QR Code or Teams chat. As they are not identified, they have the most limitations on viewing that record.
+
 ### Application Tags
 Application tags are modifiers that allows an admin to enable or disable certain features for specific users, in case they are available at organization level.
 
 ### Extensions
-Extensions are intended to enable third-party applications, typically as toolbar buttons. Efferent only use this feature for the reporting toolset.
+Extensions are intended to enable third-party applications, typically as toolbar buttons. Efferent only uses this feature for the reporting toolset.
 
 ## Worklist View
 
-Feature|Org.<br>&numsp;&numsp;Admin&numsp;&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|Anonymous|App&numsp;Tag?|Extension?
+Feature|Org.<br>&numsp;Admin&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|Anony-<br>mous|App&numsp;Tag?|Extension?
 --|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-Filter|✓|✓|✓|||||
-Search|✓|✓|✓|✓||||
-Tags|✓|✓||||||
-SmartShare|✓|✓|✓*|✓*||✓&sect;||
-Download (As zip package/as ISO file)|✓|✓|✓|✓||✓||
-Upload (DICOM, MP4, Attach)|✓|✓||||✓||
-Reset Columns|✓|✓|✓|||||
-Sort|✓|✓||||✓||
-[Read] auto-tag|✓|✓||||✓||
-Audit Trail|✓|||||||
-Admin Tools (split, merge, inspect,<br>edit, delete, quarantine, anonymnize)|✓|||||||
-&nbsp;
+Filter|&#x2713;|&#x2713;|&#x2713;|||||
+Search|&#x2713;|&#x2713;|&#x2713;|&#x2713;||||
+Tags|&#x2713;|&#x2713;||||||
+SmartShare|&#x2713;|&#x2713;|&#x2713;*|&#x2713;*||&#x2713;&sect;||
+Download (As zip package/as ISO file)|&#x2713;|&#x2713;|&#x2713;|&#x2713;||&#x2713;||
+Upload (DICOM, MP4, Attach)|&#x2713;|&#x2713;||||&#x2713;||
+Reset Columns|&#x2713;|&#x2713;|&#x2713;|||||
+Sort|&#x2713;|&#x2713;||||&#x2713;||
+[Read] auto-tag|&#x2713;|&#x2713;||||&#x2713;||
+Audit Trail|&#x2713;|||||||
+Admin Tools (split, merge, inspect,<br>edit, delete, quarantine, anonymnize)|&#x2713;|||||||
 
 _*_ _The role can only share with the option "to practitioner's email"._
 
@@ -45,43 +47,40 @@ _&sect;_ _Configurable option: Share by QR code_
 
 ## Imaging Study View
 
-Feature|Org.<br>&numsp;&numsp;Admin&numsp;&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|Anonymous|App&numsp;Tag?|Extension?
+Feature|Org.<br>&numsp;Admin&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|Anony-<br>mous|App&numsp;Tag?|Extension?
 --|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-Transform Tools (zoom, pan, rotate, etc.)|✓|✓|✓|✓|✓|||
-Image render options (W/L, invert, sharpen)|✓|✓|✓|||||
-Measure tools|✓|✓|✓|||||
-Quick Print|✓|✓|✓|✓|✓|||
-Key Image|✓|✓| | | |||
-Stitch & resect|✓|✓|||||
-Case Study|✓|✓| | | |||
-Related study list|✓|✓||||||
-Quick Compare|✓|✓| | | |||
-Ortho Tools (calibration, cobb, vertebra, eLign)|✓|✓| | | |||
-Multi-plannar reconstruction (MPR)|✓|✓||||✓||
-eFit - Implant Surgery planning|✓|✓|||✓|✓||
-Report|✓|✓| | | ||✓|
-Delete Image|✓| | | | |||
-&nbsp;
+Transform Tools (zoom, pan, rotate, etc.)|&#x2713;|&#x2713;|&#x2713;|&#x2713;|&#x2713;|||
+Image render options (W/L, invert, sharpen)|&#x2713;|&#x2713;|&#x2713;|||||
+Measure tools|&#x2713;|&#x2713;|&#x2713;|||||
+Quick Print|&#x2713;|&#x2713;|&#x2713;|&#x2713;|&#x2713;|||
+Key Image|&#x2713;|&#x2713;| | | |||
+Stitch & resect|&#x2713;|&#x2713;|||||
+Case Study|&#x2713;|&#x2713;| | | |||
+Related study list|&#x2713;|&#x2713;||||||
+Quick Compare|&#x2713;|&#x2713;| | | |||
+Ortho Tools (calibration, Cobb, vertebra, eLign)|&#x2713;|&#x2713;| | | |||
+Multi-plannar reconstruction (MPR)|&#x2713;|&#x2713;||||&#x2713;||
+eFit - Implant Surgery planning|&#x2713;|&#x2713;||||&#x2713;||
+Report|&#x2713;|&#x2713;| | | ||&#x2713;|
+Delete Image|&#x2713;| | | | |||
 
 ## Settings View
 
 ### General Settings
 
-Feature|Org.<br>&numsp;&numsp;Admin&numsp;&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|App&numsp;Tag?|Extension?
+Feature|Org.<br>&numsp;Admin&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|App&numsp;Tag?|Extension?
 --|:--:|:--:|:--:|:--:|:--:|:--:|
-Platform - SmartLink|✓|✓|||||
-Platform - General|✓|✓|✓|✓|||||
-Report Templates|✓|✓||||✓|
-Practitioners|✓||||
-Routings|✓||||||
-&nbsp;
+Platform - SmartLink|&#x2713;|&#x2713;|||||
+Platform - General|&#x2713;|&#x2713;|&#x2713;|&#x2713;|||||
+Report Templates|&#x2713;|&#x2713;||||&#x2713;|
+Practitioners|&#x2713;||||
+Routings|&#x2713;||||||
 
 ### Imaging Study Settings
 
-Feature|Org.<br>&numsp;&numsp;Admin&numsp;&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|App&numsp;Tag?|Extension?
+Feature|Org.<br>&numsp;Admin&numsp;|Org.<br>Practitioner|Guest<br>Practitioner|&numsp;Patient&numsp;|App&numsp;Tag?|Extension?
 --|:--:|:--:|:--:|:--:|:--:|:--:|
-Imaging Study|✓|✓|||
-DICOM - General|✓|✓|||
-DICOM - Overlay Text|✓|✓|||
-Ortho Tools|✓|✓|||
-&nbsp;
+Imaging Study|&#x2713;|&#x2713;|||
+DICOM - General|&#x2713;|&#x2713;|||
+DICOM - Overlay Text|&#x2713;|&#x2713;|||
+Ortho Tools|&#x2713;|&#x2713;|||
