@@ -2,8 +2,8 @@
 
 ## Worklist View
 
-Feature|Admin|User|Guest<br>Practitioner|Patient|Anonymous|App-Tag| Extension 
---|--|--|--|--|--|--|--|
+Feature|Admin<br>__________|User<br>__________|Guest<br>Practitioner|Patient<br>__________|Anonymous<br>__________|App Tag<br>__________|Extension<br>__________
+--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 Filter|✓|✓|✓|||||
 Search|✓|✓|✓|✓||||
 Tags|✓|✓||||||
@@ -19,8 +19,8 @@ Tag Read|✓|✓||||✓||
 _*_ _The role can only share with the option "to practitioner's email"._
 ## Imaging Study View
 
-Feature|Admin|User|Guest<br>Practitioner|Patient|Anonymous| App-Tag| Extension|
---|--|--|--|--|--|--|--|
+Feature|Admin<br>__________|User<br>__________|Guest<br>Practitioner|Patient<br>__________|Anonymous<br>__________|App Tag<br>__________|Extension<br>__________
+--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 Transform Tools|✓|✓|✓|✓|✓|||
 Quick Print|✓|✓|✓|✓|✓|||
 Image render options (W/L, invert, sharpen)|✓|✓|✓|||||
@@ -38,11 +38,11 @@ Report|✓|✓| | | ||✓|
 
 ## Settings View
 
-### General Setting
+### General Settings
 
-Tab|Admin|User|Guest<br>Practitioner|Patient|App-Tag|Extension
---|--|--|--|--|--|--|
-Platform - SmartLink Cache|✓|✓|||||
+Feature|Admin<br>__________|User<br>__________|Guest<br>Practitioner|Patient<br>__________|App Tag<br>__________|Extension<br>__________
+--|:--:|:--:|:--:|:--:|:--:|:--:|
+Platform - SmartLink|✓|✓|||||
 Platform - General|✓|✓|✓|✓|||||
 Practitioners|✓||||
 Report Templates|✓|✓||||✓|
@@ -51,10 +51,10 @@ Routings|✓||||||
 
 ### Imaging Study Settings
 
-Tab|Admin|User|Guest<br>Practitioner|Patient|App-Tag|Extension|
---|--|--|--|--|--|--|
+Feature|Admin<br>__________|User<br>__________|Guest<br>Practitioner|Patient<br>__________|App Tag<br>__________|Extension<br>__________
+--|:--:|:--:|:--:|:--:|:--:|:--:|
 Imaging Study|✓|✓|||
-Overlay Text|✓|✓|||
-Dicom|✓|✓|||
-Ortho|✓|✓|||
+DICOM - General|✓|✓|||
+DICOM - Overlay Text|✓|✓|||
+Ortho Tools|✓|✓|||
 
