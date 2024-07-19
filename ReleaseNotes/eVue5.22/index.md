@@ -30,17 +30,23 @@ None
 
 ## Improvements
 
-### Accession number field in the study information form
-
-The study information form (Edit study/merge view) now has an editable accession number field below the description field and above the Subject field. 
- 
-<img width=400 src="">
-
 ### Search field for DICOM tags
 
 A search field has been added to the DICOM tags list. This will allow the user to have quicker access to specific DICOM tags by filtering by tag number, value, or description.
 
 <img width=400 src="i1.png">
+
+### Configuration section in shoulder UI
+
+In the eFit shoulder interface, a configuration section has been added that groups sets of implants into three available arthroplasty options:
+
+- **Total:** Includes the components in the arm (Humeral Stem + Humeral Head) and Glenoid.
+
+- **Hemi:** involves implants only for the Humeral Stem + Humeral Head.
+
+- **Reverse:** involves the components in the Humeral Stem + Humeral Head and Glenosphere. The arm component is concave, and the scapula component is convex.
+
+<img width=300 src="gif.gif">
 
 ## Bug Fixes
 
@@ -58,11 +64,19 @@ None
 
 ## Known Issues
 
-None
+**AI service for Stitch Images:** eFit's AI service does not currently support composite images created using the stitch tool.
 
 ## Upcoming Features
 
-None
+**Autosizing - eFit**
+
+A new function that determines the most suitable implant from the user's favorite implants, using anatomical landmarks provided either by the user or the AI.
+ 
+There are two types of users to consider:
+
+- **AI user:** This user leverages Efferent's AI tools and sees this feature as a way to streamline the AI workflow.
+
+- **Non-AI user:** This user manually sets the reference points and may see "auto-sizing" as a way to simplify the process of selecting the right implant combinations.
 
 ---
 

@@ -54,6 +54,14 @@ Improvements were made in the definition of templates by organization and by def
 
 <img weight= 300 src="i4.png">
 
+### Change network configuration 
+
+The option to manually configure the network settings has been enabled. It is now possible to choose between a DCHP or Manually IP method, which allows editing of IP address, subnet mask, Gateway, and DNS. 
+
+<img weight= 300 src="i5.1.png">
+
+<img weight= 300 src="i5.2.png">
+
 ## Bug Fixes
 
 None
