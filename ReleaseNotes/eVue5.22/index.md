@@ -50,7 +50,15 @@ In the eFit shoulder interface, a configuration section has been added that grou
 
 ### Logout button in the authorization page
 
-(TODO)
+A logout button has been implemented at the top right of the authorization window. It allows the user to log out after going through the authentication process but before logging in to the platform. 
+
+<img width=300 src="i2.png">
+
+### AI service for Key images
+
+The AI service has been enabled for Key images, as well as the auto-calibration function. These services are only available for single-image key images.
+
+<img width=300 src="i3.png">
 
 ## Bug Fixes
 
