@@ -58,9 +58,39 @@ Improvements were made in the definition of templates by organization and by def
 
 The option to manually configure the network settings has been enabled. It is now possible to choose between a DCHP or Manually IP method, which allows editing of IP address, subnet mask, Gateway, and DNS. 
 
+_Before_:
+
 <img weight= 300 src="i5.1.png">
 
+_After_:
+
 <img weight= 300 src="i5.2.png">
+
+### Column sort option
+
+Added column sorting option in the Organizations view for the Organizations name column, and in the Workflow templates view for the Template name and Note columns.
+
+<img weight= 300 src="i6.png">
+
+### Template bases available for template creation
+
+The option to include base templates when creating new templates has been added. In previous versions, this could only be done after creating the template, in the graphic editor.
+
+<img weight= 300 src="i7.png">
+
+### Tags
+
+Tags can now be added when creating or editing devices, organizations, workflow templates, and organization workflow templates. These tags serve multiple purposes.
+
+<img weight= 300 src="i8.png">
+
+### Start/Stop modules buttons
+
+In the Devices view of Smartlink Central, Start module and Stop module buttons have been added, along with checkboxes for each device. These buttons allow users to stop all modules of the selected devices, enabling them to be restarted together. The option to restart specific modules is still available in the individual device view.
+
+<img weight= 300 src="i9.1.png">
+
+<img weight= 300 src="i9.png">
 
 ## Bug Fixes
 
