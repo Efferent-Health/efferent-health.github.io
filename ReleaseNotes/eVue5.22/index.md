@@ -78,17 +78,19 @@ None
 
 **AI service for Stitch Images:** eFit's AI service does not currently support composite images created using the stitch tool.
 
+This limitation will be removed as soon as possible.
+
 ## Upcoming Features
 
-**Autosizing - eFit**
+**eFit Autosizing**
 
 A new function that determines the most suitable implant from the user's favorite implants, using anatomical landmarks provided either by the user or the AI.
  
-There are two types of users to consider:
+There are two modes:
 
-- **AI user:** This user leverages Efferent's AI tools and sees this feature as a way to streamline the AI workflow.
+- **Fully-automated:** The user leverages Efferent's AI tools and sees this feature as a way to streamline the AI workflow.
 
-- **Non-AI user:** This user manually sets the reference points and may see "auto-sizing" as a way to simplify the process of selecting the right implant combinations.
+- **Semi-automated:** The user manually sets the reference points and may see "auto-sizing" as a way to simplify the process of selecting the right implant combinations.
 
 ---
 
