@@ -26,7 +26,19 @@ Welcome to the July, 2024 release of Smartlink 5. In this update, we've focused 
 
 ## New Features
 
-None
+### Deployment View
+
+This feature will display a list of all SmartLink Deployments, as well as provide the option to create a new deployment. It will include the following details for each deployment: Name, Type, Status, Conditions, and Notes.
+
+Upload:
+
+This button will allow for simultaneous updating of device manifests, based on user-defined conditions set by organizations or tags. It also supports three types of deployments for a group of devices:
+
+1. Full Deployment: Updates the entire manifest.
+2. Module Deployment: Enables updating or adding a module to the current manifest, including Docker configuration, ports, version, and more.
+3. Module Version Deployment: Allows updating only the version of a module while retaining its other characteristics.
+
+<img width= 400 src="i0.png">
 
 ## Improvements
 
