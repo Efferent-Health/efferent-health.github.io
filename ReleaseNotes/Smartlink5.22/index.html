@@ -1240,31 +1240,61 @@ Release Date:   July, 2024
 <li><a href="#upcoming-features">Upcoming Features</a></li>
 </ol>
 <h2 id='introduction'>Introduction</h2>
-<p>Welcome to the July, 2024 release of Smartlink 5. In this update, we&#39;ve focused on adding new functionalities in SmartLink Central and enhacing the user experience.</p>
+<p>Welcome to the July 2024 release of Smartlink 5. In this update, we&#39;ve focused on adding new functionalities in SmartLink Central and enhancing the user experience.</p>
 <h2 id='new-features'>New Features</h2>
-<p>None</p>
+<h3 id='deployment-view'>Deployment View</h3>
+<p>This feature will display a list of all SmartLink Deployments, as well as provide the option to create a new deployment. It will include the following details for each deployment: Name, Type, Status, Conditions, and Notes.</p>
+<h4 id='upload-button'>Upload button</h4>
+<p>This button will allow for simultaneous updating of device manifests, based on user-defined conditions set by organizations or tags. It also supports three types of deployments for a group of devices:</p>
+<ol>
+<li>Full Deployment: Updates the entire manifest.</li>
+<li>Module Deployment: Enables updating or adding a module to the current manifest, including Docker configuration, ports, version, and more.</li>
+<li>Module Version Deployment: Allows updating only the version of a module while retaining its other characteristics.</li>
+</ol>
+<img width= 400 src="i0.png">
+
 <h2 id='improvements'>Improvements</h2>
 <h3 id='warning-when-leaving-the-workflow-editor'>Warning when leaving the Workflow editor</h3>
-<p>A pop-up warning has been added to alert the user that they have unsaved changes before exiting the workflow editor.</p>
-<img weight= 300 src="i1.png">
+<p>A pop-up warning has been added to alert users that they have unsaved changes before exiting the workflow editor.</p>
+<img width= 400 src="i1.png">
 
 <h3 id='workflowengine-settings'>WorkflowEngine Settings</h3>
-<p>In the Devices view the “Global Settings” column has been removed. These settings were moved to device/$deviceId/modules/$moduleName/settings. It is accessed by selecting a device On Status, and then clicking on Workflowengine.</p>
-<img weight= 300 src="i2.png">
+<p>In the Devices view, the “Global Settings” column has been removed. These settings were moved to device/$deviceId/modules/$moduleName/settings. It is accessed by selecting a device On Status, and then clicking on Workflowengine.</p>
+<img width= 400 src="i2.png">
 
 <h3 id='organization-templates-available-when-creating-a-device'>Organization templates available when creating a device</h3>
-<p>In the latest version, the creation of templates by organization has been developed, available in a column within the organization view. In this version the option to select either default templates or organization templates when creating a new device is available.</p>
-<img weight= 300 src="i3.png">
+<p>In the latest version, the creation of templates by organization has been developed, available in a column within the organization view. In this version, the option to select either default templates or organization templates when creating a new device is available.</p>
+<img width= 300 src="i3.png">
 
-<h3 id='quot-view-templates-quot-selection'>&quot;View templates&quot; selection</h3>
-<p>Improvements were made in the definition of templates by organization and by default. Now when clicking on the “view templates” button in the workflow editor, two dropdowns are shown on the right side of the screen, one for default templates, where all the available templates appear, and a dropdown for organization templates, which are the templates assigned and created for that specific organization.</p>
-<img weight= 300 src="i4.png">
+<h3 id='quot-view-templates-quot-reorganization'>&quot;View templates&quot; reorganization</h3>
+<p>Improvements were made in the definition of templates by organization and by default. Now, when clicking on the “view templates” button in the workflow editor, two dropdowns appear on the right side of the screen, one for default templates, where all the available templates appear, and a dropdown for organization templates, which are the templates assigned and created for that specific organization.</p>
+<img width= 400 src="i4.png">
 
 <h3 id='change-network-configuration'>Change network configuration</h3>
-<p>The option to manually configure the network settings has been enabled. It is now possible to choose between a DCHP or Manually IP method, which allows editing of IP address, subnet mask, Gateway, and DNS. </p>
-<img weight= 300 src="i5.1.png">
+<p>The option to manually configure the network settings has been enabled. It is now possible to choose between a DCHP or Manual IP input, which allows editing of IP address, subnet mask, Gateway, and DNS. </p>
+<p><em>Before</em>:</p>
+<img width= 400 src="i5.1.png">
 
-<img weight= 300 src="i5.2.png">
+<p><em>After</em>:</p>
+<img width= 400 src="i5.2.png">
+
+<h3 id='column-sort-option'>Column sort option</h3>
+<p>We added column sorting option in the Organizations view for the Organizations name column, and in the Workflow templates view for the Template name and Note columns.</p>
+<img width= 300 src="i6.png">
+
+<h3 id='template-bases-available-for-template-creation'>Template bases available for template creation</h3>
+<p>The option to include base templates when creating new templates has been added. In previous versions, this could only be done after creating the template, in the graphic editor.</p>
+<img width= 400 src="i7.png">
+
+<h3 id='tags'>Tags</h3>
+<p>Tags can now be added when creating or editing devices, organizations, workflow templates, and organization workflow templates. These tags serve multiple purposes.</p>
+<img width= 400 src="i8.png">
+
+<h3 id='start-stop-modules-buttons'>Start/Stop modules buttons</h3>
+<p>In the Devices view of Smartlink Central, Start module and Stop module buttons have been added, along with checkboxes for each device. These buttons allow users to stop all modules of the selected devices, enabling them to be restarted together. The option to restart specific modules is still available in the individual device view.</p>
+<img width= 400 src="i9.1.png">
+
+<img width= 400 src="i9.png">
 
 <h2 id='bug-fixes'>Bug Fixes</h2>
 <p>None</p>
@@ -1273,6 +1303,7 @@ Release Date:   July, 2024
 <h2 id='known-issues'>Known Issues</h2>
 <p>None</p>
 <h2 id='upcoming-features'>Upcoming Features</h2>
+<p>None</p>
 <hr>
 <p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
 
