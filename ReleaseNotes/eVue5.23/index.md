@@ -30,7 +30,7 @@ None
 
 ## Improvements
 
-### Accession number field in the study information form
+### Accession number field in the Imaging Study  form
 
 An editable field for the accession number has been added to the Imaging Study form displayed in the study edition view. Now, when performing a Merge, this data will also be displayed in the new study information.
 
@@ -62,7 +62,7 @@ Added the option to remove records from the consents list in the Inspect view. S
 
 <img width=300 src="i3.2.png">
 
-### Confirmation dialog displayed when uploading a Dicom/MP4 without dataa
+### Confirmation dialog  when uploading a Dicom/MP4 without data
 
 Added a message that pops up if the user selects the option “empty” in all patient information fields (PID, Patient Name, DOB) when uploading a Dicom or mp4. The message asks for confirmation to upload the study with all patient data empty. 
 
