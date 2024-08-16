@@ -30,6 +30,12 @@ None
 
 ## Improvements
 
+### eFit on Stitch images
+
+The Stitch & Resect tool allows to select one or more images from a study to generate a a composite image, with the option to perform cropping and apply basic transformations such as rotation and flip. From this update it will be possible to run eFit planning for hip on a stitched image, using AI and autocalibration services.
+
+<img width=600 src="i0.png">
+
 ### Accession number field in the Imaging Study  form
 
 An editable field for the accession number has been added to the Imaging Study form displayed in the study edition view. Now, when performing a Merge, this data will also be displayed in the new study information.
@@ -48,19 +54,19 @@ The presentation of Audit Trail and Consents tables in the Inspect view has been
 
 _Before:_
 
-<img width=500 src="i2.1.png">
+<img width=600 src="i2.1.png">
 
 _After:_
 
-<img width=500 src="i2.2.png">
+<img width=600 src="i2.2.png">
 
 ### Delete consents in the Inspect view
 
 Added the option to remove records from the consents list in the Inspect view. Select the record you want to delete and then click on the X next to the refresh symbol button.
 
-<img width=500 src="i3.1.png">
+<img width=600 src="i3.1.png">
 
-<img width=300 src="i3.2.png">
+<img width=350 src="i3.2.png">
 
 ### Confirmation dialog  when uploading a Dicom/MP4 without data
 
@@ -70,7 +76,7 @@ Added a message that pops up if the user selects the option “empty” in all p
 
 ### Improvement of image rendering
 
-Image rendering has been improved, including the use of high quality attributes.
+Image rendering has been improved, as well as the presentation of low and high resolution images by applying quality attribute correction and eliminating the grainy effect.
 
 ## Bug Fixes
 
