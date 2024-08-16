@@ -32,7 +32,7 @@ None
 
 ### eFit on Stitch images
 
-The Stitch & Resect tool allows to select one or more images from a study to generate a a composite image, with the option to perform cropping and apply basic transformations such as rotation and flip. From this update it will be possible to run eFit planning for hip on a stitched image, using AI and autocalibration services.
+The Stitch & Resect tool allows to select one or more images from a study to generate a composite image, with the option to perform cropping and apply basic transformations such as rotation and flip. From this update it will be possible to run eFit planning for hip on a stitched image, using AI and autocalibration services.
 
 <img width=600 src="i0.png">
 
