@@ -22,7 +22,7 @@ Release Date:   August, 2024
 
 ## Introduction
 
-Welcome to the August 2024 release of Efferent eVue and eFit. In this update, we've focused on enhancing performance and stability.
+Welcome to the August 2024 release of Efferent eVue and eFit. In this update, we've focused on improving several features.
 
 ## New Features
 
@@ -36,7 +36,7 @@ The Stitch & Resect tool allows to select one or more images from a study to gen
 
 <img width=600 src="i0.png">
 
-### Accession number field in the Imaging Study  form
+### Accession number field in the Imaging Study form
 
 An editable field for the accession number has been added to the Imaging Study form displayed in the study edition view. Now, when performing a Merge, this data will also be displayed in the new study information.
 
@@ -80,9 +80,9 @@ Image rendering has been improved, as well as the presentation of low and high r
 
 ## Bug Fixes
 
-- **Related Studies opened in new tabs**: When opening related studies in a new tab and repeating the process within the newly opened tab (successively) some tabs closed.
+- **Related Studies opened in new tabs**: When opening related studies in a new tab and repeating the process within the newly opened tab successively, some tabs were closed.
 
-- **Smarthsare to a guest-patient role**: When sharing studies to a patient who was previously registered as a guest, the user did not have access to the shared study.
+- **SmartShare to a guest-patient role**: When sharing studies to a patient who was previously registered as a guest, the user did not have access to the shared study.
 
 ## Deprecations
 
