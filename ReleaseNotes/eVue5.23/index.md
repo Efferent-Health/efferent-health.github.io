@@ -76,8 +76,11 @@ Added a message that pops up if the user selects the option “empty” in all p
 
 ### Offline and Hybrid mode for SL5
 
-eVue has been adapted to work in offline and hybrid mode, making it possible for SL4 and Sl5 versions to coexist. The offline token returned on the user login from the cloud serves as a reference to encrypt any required request.
-This offline token only serves for SL5 version onwards.
+#### Hybrid mode: 
+eVue shall detect a local SmartLink and retrieve the study images from the SmartLink installed in the same user network, this will increase the downloading experience of the studies.
+ 
+#### Offline mode:
+In case eVue detects no connection with Efferent cloud platform, the user wil be notified to switch to offline mode. This feature will allow to keep working with the studies stored locally on SL5.
 
 <img width= 400 src="i5.png">
 
