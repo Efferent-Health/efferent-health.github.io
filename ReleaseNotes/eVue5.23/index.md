@@ -74,7 +74,7 @@ Added a message that pops up if the user selects the option “empty” in all p
 
 <img width=400 src="i4.png">
 
-### Offline and Hybrid mode for SL5
+### Offline and Hybrid mode for SmartLink 5
 
 #### Hybrid mode: 
 eVue shall detect a local SmartLink and retrieve the study images from the SmartLink installed in the same user network, this will increase the downloading experience of the studies.
