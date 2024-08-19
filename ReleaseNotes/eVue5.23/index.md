@@ -74,10 +74,9 @@ Added a message that pops up if the user selects the option “empty” in all p
 
 <img width=400 src="i4.png">
 
-### Offline and Hybrid mode for SL5
+### Offline and Hybrid mode for SmartLink 5
 
-eVue has been adapted to work in offline and hybrid mode, making it possible for SL4 and Sl5 versions to coexist. The offline token returned on the user login from the cloud serves as a reference to encrypt any required request.
-This offline token only serves for SL5 version onwards.
+eVue has been adapted to work in offline and hybrid mode, making it possible for SmartLink versions 4 and 5 to coexist.
 
 <img width= 400 src="i5.png">
 
