@@ -77,16 +77,16 @@ Added a message that pops up if the user selects the option “empty” in all p
 ### Offline and Hybrid mode for SmartLink 5
 
 #### Hybrid mode: 
-eVue shall detect a local SmartLink and retrieve the study images from the SmartLink installed in the same user network, this will increase the downloading experience of the studies.
+eVue shall detect a local SmartLink and retrieve the study images from the SmartLink installed in the same user network, this will increase the downloading experience of the studies by a factor of 5X-7X.
  
 #### Offline mode:
-In case eVue detects no connection with Efferent cloud platform, the user wil be notified to switch to offline mode. This feature will allow to keep working with the studies stored locally on SL5.
+In case eVue detects no connection with the Efferent cloud platform, the user will be notified to switch to offline mode. This feature will allow to keep working with the studies stored locally on SmartLink 5.
 
 <img width= 400 src="i5.png">
 
 ### Improvement of image rendering
 
-Image rendering has been improved, as well as the presentation of low and high resolution images by applying quality attribute correction and eliminating the grainy effect.
+The image rendering has been improved to use a higher quality when showing the entire image on the viewport.
 
 ## Bug Fixes
 
@@ -105,7 +105,6 @@ None
 ## Upcoming Features
 
 None
-
 
 ---
 

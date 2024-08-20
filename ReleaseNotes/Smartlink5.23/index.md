@@ -50,12 +50,6 @@ _After:_
 
 <img width= 300 src="i3.2.png">
 
-### Endpoint for device information
-
-An endpoint has been implemented to access device hardware and software information: cpu, memory, disk, os version, etc. This endpoint returns a Json format with the device data. The deviceID is mandatory.
-
-<img width= 400 src="i4.png">
-
 ## Bug Fixes
 
 None
