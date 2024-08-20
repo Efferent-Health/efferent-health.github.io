@@ -50,6 +50,16 @@ _After:_
 
 <img width= 300 src="i3.2.png">
 
+### Device Information
+
+In this SmartLink 5 update, the device information has been added to the device module view, where hardware and software data can be found.
+
+**Hardware:** CPU Type - CPU Model- Total Memory.
+
+**Software:** OS Version - OS Name - Kernel Name - Product Name - Product Vendor. 
+
+<img width= 400 src="i4.png">
+
 ## Bug Fixes
 
 None
