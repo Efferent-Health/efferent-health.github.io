@@ -107,7 +107,7 @@ None
 None
 
 ## Patch Release 5.23
-A patch was released on August 23, 2024, with the following fixs.
+A patch was released on August 23, 2024, with the following fix.
 
 ### Bug Fixes
 
