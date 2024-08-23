@@ -109,7 +109,7 @@ None
 ## Patch Release 5.23
 A patch was released on August 23, 2024, with the following fix.
 
-### Bug Fixes
+
 
 - **Imaging Context Menu**: A bug in the display of context menu tools was fixed. The user can now see the options checked in settings, according to his preference, as expected.
 
