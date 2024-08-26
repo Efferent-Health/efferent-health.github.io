@@ -19,6 +19,7 @@ Release Date:   August, 2024
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
+8. [Patch Release 5.23.1](#patch-release-5.23.1)
 
 ## Introduction
 
@@ -106,10 +107,9 @@ None
 
 None
 
-## Patch Release 5.23
+## Patch Release 5.23.1
+
 A patch was released on August 23, 2024, with the following fix.
-
-
 
 - **Imaging Context Menu**: A bug in the display of context menu tools was fixed. The user can now see the options checked in settings, according to his preference, as expected.
 
