@@ -64,12 +64,6 @@ None
 
 None
 
-## Patch Release 5.23.1
-
-A patch was released on August 23, 2024, with the following fix.
-
-- **Imaging Context Menu**: A bug in the display of context menu tools was fixed. The user can now see the options checked in settings, according to his preference, as expected.
-
 ---
 
 Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at support@efferenthealth.com .
