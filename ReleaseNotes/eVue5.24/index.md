@@ -69,7 +69,7 @@ A patch was released on September 20, 2024, with the following changes.
 
 ### Improvements
 
-- **Toolbar Customization:**  With this new implementation, users can now add functionality from the main toolbar drop-downs to the toolbar based on their preferences. To customize, click on the user button at the top right of the platform and select the toolbar button. Drag the features from the drop-down menus to add them to the toolbar. To remove these functions, simply click on them.
+- **Toolbar Customization:**  With this new implementation, users can now add features from the main toolbar drop-downs to the toolbar based on their preferences. To customize, click on the user button at the top right of the platform and select the toolbar button. Drag the features from the drop-down menus to add them to the toolbar. To remove these functions, simply click on them.
 
 <img width=500 src="gif.gif">
 
