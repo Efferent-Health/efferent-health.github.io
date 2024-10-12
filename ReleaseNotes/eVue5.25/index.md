@@ -37,9 +37,9 @@ Functionality shortcuts can now be added to the far right of the toolbar, accord
 
 <img width=500 src="shortcuts.gif">
 
-### HIPAA warning for Dummy guests
+### HIPAA warning for Anonymous guests
 
-The HIPAA warning has been implemented for dummy guests. These users will now be required to accept HIPAA conditions when opening a shared link or QR, protecting shared patient information.
+The HIPAA warning has been implemented for anonymous guests. These users will now be required to read and accept HIPAA conditions when opening a shared link or QR, protecting shared patient information.
 
 ### "Save as key image" option for Knee
 
