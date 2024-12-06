@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>eVue Features per Role</title>
+        <title>Release Notes</title>
         <style>
             .markdown-body img {
               padding-bottom: 10px;
@@ -1220,534 +1220,57 @@
     </head>
     <body>
         <article class="markdown-body">
-        <img class="logo" width="300" alt="logo" src="eVue_logo.png" />
+        <img class="logo" width="300" alt="logo" src="../../efferent_logo.png" />
 
-<h1 id='evue-features-per-role'>eVue Features per Role</h1>
-<h2 id='role-descriptions'>Role descriptions</h2>
-<h3 id='organization-admin'>Organization Admin</h3>
-<p>This role has access to every available feature in eVue, especially those that may alter DICOM files and other user privileges.</p>
-<h3 id='organization-practitioner'>Organization Practitioner</h3>
-<p>This is the most common role, for all kind of healthcare practitioners (physicians, techs, admins) and allows to use most of the features of eVue, with exception of admin-exclusive functions.</p>
-<h3 id='global-reader'>Global Reader</h3>
-<p>This role enables navigation through studies across all the organizations within an environment. It has access to most eVue features, except for functions reserved for admins.</p>
-<h3 id='guest-practitioner'>Guest Practitioner</h3>
-<p>A guest practitioner is one invited by an admin or organization practitioner to use eVue to review a specific record. Features that may alter or add information to medical records are restricted.</p>
-<h3 id='patient'>Patient</h3>
-<p>Patients are highly restricted to only view and share their own medical records, without any advanced feature intended for practitioners.</p>
-<h3 id='anonymous'>Anonymous</h3>
-<p>Anonymous users are those who have received a medical record link via QR Code or Teams chat. As they are not identified, they have the most limitations on viewing that record.</p>
-<h2 id='feature-management'>Feature management</h2>
-<h3 id='application-tags'>Application Tags</h3>
-<p>Application tags are modifiers that allows an admin to enable or disable certain features for specific users, in case they are available at organization level.</p>
-<h3 id='extensions'>Extensions</h3>
-<p>Extensions are intended to enable third-party applications, typically as toolbar buttons. Efferent only uses this feature for the reporting toolset.</p>
-<h2 id='worklist-view'>Worklist View</h2>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">Org.<br>&numsp;Admin&numsp;</th>
-<th align="center">Org.<br>Practitioner</th>
-<th align="center">Global<br>&numsp;Reader&numsp;</th>
-<th align="center">Guest<br>Practitioner</th>
-<th align="center">&numsp;Patient&numsp;</th>
-<th align="center">Anony-<br>mous</th>
-<th align="center">App&numsp;Tag?</th>
-<th align="center">Extension?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Filter</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Search</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Tags</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>SmartShare</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;*</td>
-<td align="center">&#x2713;*</td>
-<td align="center"></td>
-<td align="center">&#x2713;&sect;</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Download (As zip package/as ISO file)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>Upload (DICOM, MP4, Attach)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>Reset Columns</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Sort</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>[Read] auto-tag</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>Audit Trail</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Admin Tools (split, merge, inspect,<br>edit, delete, quarantine, anonymnize)</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>General Worklist</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Shared Worklist</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Quarantine Worklist</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Case Worklist</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Recycle Bin</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Global Worklist</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Send to Pacs (per environment)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<p><em>*</em> <em>The role can only share with the option &quot;to practitioner&#39;s email&quot;.</em></p>
-<p><em>&sect;</em> <em>Configurable option: Share by QR code</em></p>
-<h2 id='imaging-study-view'>Imaging Study View</h2>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">Org.<br>&numsp;Admin&numsp;</th>
-<th align="center">Org.<br>Practitioner</th>
-<th align="center">Global<br>&numsp;Reader&numsp;</th>
-<th align="center">Guest<br>Practitioner</th>
-<th align="center">&numsp;Patient&numsp;</th>
-<th align="center">Anony-<br>mous</th>
-<th align="center">App&numsp;Tag?</th>
-<th align="center">Extension?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Transform Tools (zoom, pan, rotate, etc.)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Image render options (W/L, invert, sharpen)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Measure tools</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Quick Print</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Key Image</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Stitch &amp; resect</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Case Study</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Related study list</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Quick Compare</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Ortho Tools (calibration, Cobb, vertebra, eLign)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Multi-plannar reconstruction (MPR)</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>eFit - Implant Surgery planning</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Report</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>Delete Image</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h2 id='settings-view'>Settings View</h2>
-<h3 id='general-settings'>General Settings</h3>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">Org.<br>&numsp;Admin&numsp;</th>
-<th align="center">Org.<br>Practitioner</th>
-<th align="center">Global<br>&numsp;Reader&numsp;</th>
-<th align="center">Guest<br>Practitioner</th>
-<th align="center">&numsp;Patient&numsp;</th>
-<th align="center">App&numsp;Tag?</th>
-<th align="center">Extension?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Platform - SmartLink</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Platform - General</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Report Templates</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">&#x2713;</td>
-</tr>
-<tr>
-<td>Practitioners</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Routings</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-<h3 id='imaging-study-settings'>Imaging Study Settings</h3>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th align="center">Org.<br>&numsp;Admin&numsp;</th>
-<th align="center">Org.<br>Practitioner</th>
-<th align="center">Global<br>&numsp;Reader&numsp;</th>
-<th align="center">Guest<br>Practitioner</th>
-<th align="center">&numsp;Patient&numsp;</th>
-<th align="center">App&numsp;Tag?</th>
-<th align="center">Extension?</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Imaging Study</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>DICOM - General</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>DICOM - Overlay Text</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Ortho Tools</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center">&#x2713;</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
+<br/>
+
+<h1 id='release-notes'>Release Notes</h1>
+<pre><code>Product Name:   eVue and eFit
+Version Number: 5.27
+Release Date:   December, 2024
+</code></pre>
+<h2 id='table-of-contents'>Table of Contents</h2>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#improvements">Improvements</a></li>
+<li><a href="#bug-fixes">Bug Fixes</a></li>
+<li><a href="#deprecations">Deprecations</a></li>
+<li><a href="#known-issues">Known Issues</a></li>
+<li><a href="#upcoming-features">Upcoming Features</a></li>
+</ol>
+<h2 id='introduction'>Introduction</h2>
+<p>Welcome to the October 2024 release of Efferent eVue and eFit. In this update, we have focused on providing major process flow improvements and functionality enhancements.</p>
+<h2 id='new-features'>New Features</h2>
+<h3 id='switch-organization-menu'>Switch Organization Menu</h3>
+<p>The new ‘Switch Organization’ drop-down menu has been added which will be visible to those users that are part of more than one organization on the platform. To navigate from one organization to another it is no longer necessary to log out and log back in to a different organization. Instead, click on the &quot;Switch&quot; button next to the user menu and select the organization to switch to.</p>
+<img width=500 src="i2.png">
+
+<h2 id='improvements'>Improvements</h2>
+<h3 id='image-download-speed'>Image download speed</h3>
+<p>Improvement in the download speed of high-resolution studies. Images from large studies can now be viewed with a shorter loading time. The user can manage the download priority of a series by dragging it to the viewport during the process.</p>
+<h3 id='smartshare-with-all-the-users-of-the-same-role'>SmartShare with all the users of the same role</h3>
+<p>Internal practitioners in the organization have been given the option to SmartShare a study with all users of the same role simultaneously.</p>
+<img width=400 src="i1.png">
+
+<h3 id='cine-tool-in-the-iso-viewer'>Cine tool in the ISO viewer</h3>
+<p>Automatic playback of images with the Cine tool was enabled in the local viewer, available with the download of a study as an ISO file. In the toolbar the user will find the Play, Pause and stop buttons to use this functionality.</p>
+<img width=500 src="cine.gif">
+
+<h2 id='bug-fixes'>Bug Fixes</h2>
+<ul>
+<li><p><strong>The size of the cup (hip) disappeared.</strong> After calibrating the image and running the AI, the cup size disappeared when selecting the cup implant.</p>
+</li>
+<li><p><strong>The drag point of the &quot;Show in print&quot; table disappeared.</strong> The drag point of the &quot;Show in print&quot; information table disappeared after using any transform tool on the image.</p>
+</li>
+</ul>
+<h2 id='deprecations'>Deprecations</h2>
+<p>None</p>
+<h2 id='known-issues'>Known Issues</h2>
+<p>None</p>
+<h2 id='upcoming-features'>Upcoming Features</h2>
+<p>None</p>
+<hr>
+<p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
 
         </article>
     </body>
