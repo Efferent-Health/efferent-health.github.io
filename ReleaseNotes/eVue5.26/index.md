@@ -7,7 +7,7 @@
 ```
 Product Name:   eVue and eFit
 Version Number: 5.26
-Release Date:   October, 2024
+Release Date:   November, 2024
 ```
 
 ## Table of Contents
@@ -21,7 +21,7 @@ Release Date:   October, 2024
 
 ## Introduction
 
-Welcome to the October 2024 release of Efferent eVue and eFit. In this update, we have focused on providing major process flow improvements and functionality enhancements.
+Welcome to the November 2024 release of Efferent eVue and eFit. In this update, we have focused on providing major process flow improvements and functionality enhancements.
 
 ## New Features
 
@@ -35,17 +35,18 @@ The new ‘Switch Organization’ drop-down menu has been added which will be vi
 
 ### Image download speed
 
-Improvement in the download speed of high-resolution studies. Images from large studies can now be viewed with a shorter loading time. The user can manage the download priority of a series by dragging it to the viewport during the process.
+There is a noticeable improvement in the download speed of high-resolution studies. Images from large studies can now be viewed with a shorter loading time (up to 10 times faster). 
+As before, the user can manage the download priority of a series by dragging it to the viewport during the process.
 
 ### SmartShare with all the users of the same role
 
-Internal practitioners in the organization have been given the option to SmartShare a study with all users of the same role simultaneously.
+Internal practitioners in an organization have been given the option to SmartShare a study with all users of the same role simultaneously.
 
 <img width=400 src="i1.png">
 
-### Cine tool in the ISO viewer
+### Cine tool in the embedded CD viewer
 
-Automatic playback of images with the Cine tool was enabled in the local viewer, available with the download of a study as an ISO file. In the toolbar the user will find the Play, Pause and stop buttons to use this functionality.
+Automatic playback of images with the Cine tool was enabled in the CD viewer, available with the download of a study as an ISO file. In the toolbar the user will find the Play, Pause, and stop buttons to use this functionality.
 
 <img width=500 src="cine.gif">
 
