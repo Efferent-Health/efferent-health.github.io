@@ -7,7 +7,7 @@
 ```
 Product Name:   eVue and eFit
 Version Number: 5.26
-Release Date:   October, 2024
+Release Date:   November, 2024
 ```
 
 ## Table of Contents
