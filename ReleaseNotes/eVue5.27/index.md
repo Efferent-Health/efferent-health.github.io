@@ -21,39 +21,34 @@ Release Date:   December, 2024
 
 ## Introduction
 
-Welcome to the October 2024 release of Efferent eVue and eFit. In this update, we have focused on providing major process flow improvements and functionality enhancements.
-
-## New Features
-
-### Switch Organization Menu
-
-The new ‘Switch Organization’ drop-down menu has been added which will be visible to those users that are part of more than one organization on the platform. To navigate from one organization to another it is no longer necessary to log out and log back in to a different organization. Instead, click on the "Switch" button next to the user menu and select the organization to switch to.
-
-<img width=500 src="i2.png">
-
+Welcome to the December 2024 release of Efferent eVue and eFit. In this update, we have focused on optimizing the performance of the most frequently used features and fixing issues identified in  workflows.
 ## Improvements
 
-### Image download speed
+### SmartShare 
 
-Improvement in the download speed of high-resolution studies. Images from large studies can now be viewed with a shorter loading time. The user can manage the download priority of a series by dragging it to the viewport during the process.
+Improvements have been made to the presentation of Smartshare options, optimizing the functionality's workflows. The changes include:
 
-### SmartShare with all the users of the same role
+- **Reorganization of Practitioner Sharing Options:** Users can now send studies to a practitioner registered within an organization or to an external practitioner by selecting the desired option.
+- **Enhanced "Recents" Option:** Now presented as "Recents and Favorites," this feature displays a list of the last 10 practitioners and patients with whom studies were shared, along with those marked as favorites.
+- **Updated Anonymization Feature:** Previously, studies could be anonymized when sharing with practitioners by selecting a checkbox. Now, studies can be shared anonymously using the "Share Anonymized" button, not only with practitioners but also when using the "With Organization" option.
 
-Internal practitioners in the organization have been given the option to SmartShare a study with all users of the same role simultaneously.
+_Before:_
 
-<img width=400 src="i1.png">
+<img height=400 src="before.png">
 
-### Cine tool in the ISO viewer
+_After:_
 
-Automatic playback of images with the Cine tool was enabled in the local viewer, available with the download of a study as an ISO file. In the toolbar the user will find the Play, Pause and stop buttons to use this functionality.
+<img height=400 src="after.png">
 
-<img width=500 src="cine.gif">
+### Autosizing for Knee Implants
+
+
 
 ## Bug Fixes
 
-- **The size of the cup (hip) disappeared.** After calibrating the image and running the AI, the cup size disappeared when selecting the cup implant.
+- **Filter by body part could not be executed**: A problem was fixed that caused an error when performing a body part search using the Filter tool.
 
-- **The drag point of the "Show in print" table disappeared.** The drag point of the "Show in print" information table disappeared after using any transform tool on the image.
+- **The drag point of the "Show in print" table disappeared**: When placing the transischial line, adding an implant, and attempting to drag it, the implant would instantly move to an unexpected position in the viewport.
 
 ## Deprecations
 
