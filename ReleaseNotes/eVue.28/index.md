@@ -36,6 +36,12 @@ Archived studies will still be visible in the worklist, distinguished by darker 
 
 <img width=400 src="i2.png">
 
+### Deletion of Entire Image Series 
+
+eVue has been enhanced to support the deletion of entire image series, in addition to the previous ability to delete individual images. This improvement simplifies the process, offering users greater flexibility and efficiency in managing image data. The option will be available below the "Delete Image" option in the image tools menu.
+
+<img width=200 src="i6.png">
+
 ## Improvements
 
 ### Streamlined Calibration UI
@@ -64,12 +70,6 @@ Annotations can now be moved easily by dragging them as a whole, allowing for qu
 ### Optimized performance for Annotation Addition
 
 The performance of the annotation process has been optimized by eliminating unnecessary messages, resulting in a smoother and more efficient experience.
-
-### Deletion of Entire Image Series 
-
-eVue has been enhanced to support the deletion of entire image series, in addition to the previous ability to delete individual images. This improvement simplifies the process, offering users greater flexibility and efficiency in managing image data. The option will be available below the "Delete Image" option in the image tools menu.
-
-<img width=200 src="i6.png">
 
 ### Improved Implant Size Selection
 
